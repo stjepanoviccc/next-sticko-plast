@@ -16,7 +16,7 @@ const ProductsSlider = () => {
     const sliderPerViewValue = desktop ? 3 : tablet ? 2 : mobile ? 1 : '';
 
     return (
-        <Swiper className="mySwiper pb-10" effect={'coverflow'} grabCursor={true} centeredSlides={true} initialSlide={2} pagination={{ clickable: true, draggable: true }} modules={[EffectCoverflow, Pagination]}
+        <Swiper className="mySwiper" style={{paddingBottom: '2.5rem'}} effect={'coverflow'} grabCursor={true} centeredSlides={true} initialSlide={2} pagination={{ clickable: true, draggable: true }} modules={[EffectCoverflow, Pagination]}
             slidesPerView={sliderPerViewValue} coverflowEffect={{ rotate: rotateValue, stretch: 0, depth: 100, modifier: 1, slideShadows: true, }}
         >
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">

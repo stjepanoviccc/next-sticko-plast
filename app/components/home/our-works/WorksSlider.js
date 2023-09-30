@@ -18,28 +18,28 @@ const WorksSlider = () => {
     const sliderPerViewValue = bigDesktop || mediumDesktop ? 3 : smallDesktop || bigTablet ? 2 : smallTablet || mobile ? 1 : '';
 
     return (
-        <Swiper className="mySwiper pb-10" slidesPerView={sliderPerViewValue} spaceBetween={30} modules={[Autoplay, Pagination]} loop={true} grabCursor={true}
-            pagination={{ clickable: true, draggable: true }} autoplay={{delay: 5000, disableOnInteraction: false}} >
+        <Swiper className="mySwiper" style={{paddingBottom: '2.5rem'}} slidesPerView={sliderPerViewValue} spaceBetween={30} modules={[Autoplay, Pagination]} loop={true} grabCursor={true}
+            pagination={{ clickable: true, draggable: true }} autoplay={{ delay: 5000, disableOnInteraction: false }} >
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{minHeight: imgHeight}} className="w-full rounded-xl" src="../../../assets/works/work-min.jpg" alt="slider-work-img"></img>
+                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work-min.jpg" alt="slider-work-img"></img>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{minHeight: imgHeight}} className="w-full rounded-xl" src="../../../assets/works/work2-min.jpg" alt="slider-work2-img"></img>
+                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work2-min.jpg" alt="slider-work2-img"></img>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{minHeight: imgHeight}} className="w-full rounded-xl" src="../../../assets/works/work3-min.jpg" alt="slider-work3-img"></img>
+                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work3-min.jpg" alt="slider-work3-img"></img>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{minHeight: imgHeight}} className="w-full rounded-xl" src="../../../assets/works/work4-min.jpg" alt="slider-work4-img"></img>
+                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work4-min.jpg" alt="slider-work4-img"></img>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{minHeight: imgHeight}} className="w-full rounded-xl" src="../../../assets/works/work5-min.jpg" alt="slider-work5-img"></img>
+                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work5-min.jpg" alt="slider-work5-img"></img>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{minHeight: imgHeight}} className="w-full rounded-xl" src="../../../assets/works/work6-min.jpg" alt="slider-work6-img"></img>
+                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work6-min.jpg" alt="slider-work6-img"></img>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{minHeight: imgHeight}} className="w-full rounded-xl" src="../../../assets/works/work7-min.jpg" alt="slider-work7-img"></img>
+                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work7-min.jpg" alt="slider-work7-img"></img>
             </SwiperSlide>
         </Swiper>
     )

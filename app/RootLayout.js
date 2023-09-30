@@ -1,6 +1,5 @@
-import "./globals.css";
-import Header from '../src/components/header/Header';
-import Footer from '../src/components/footer/Footer';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 const RootLayout = ({ children }) => {
   return (

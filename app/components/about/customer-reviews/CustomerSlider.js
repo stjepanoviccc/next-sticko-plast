@@ -7,9 +7,11 @@ import 'swiper/css/pagination';
 const CustomersSlider = (props) => {
   const windowWidth = useCheckDevice();
   const slidesPerView = windowWidth >= 1024 ? 3 : windowWidth >= 576 && windowWidth < 1024 ? 2 : 1;
+  const paddingTop = windowWidth >= 1024 ? '6rem' : '4rem';
 
   return (
-    <Swiper className="mySwiper overflow-hidden pt-16 pb-10 text-center sm:text-lg lg:pt-24" slidesPerView={slidesPerView} spaceBetween={30} modules={[Autoplay, Pagination]} loop={true} grabCursor={true}
+    <Swiper className="mySwiper overflow-hidden pt-16 pb-10 text-center sm:text-lg lg:pt-24" style={{ paddingTop: paddingTop, paddingBottom: '2.5rem' }} slidesPerView={slidesPerView}
+      spaceBetween={30} modules={[Autoplay, Pagination]} loop={true} grabCursor={true}
       pagination={{ clickable: true, draggable: true }} autoplay={{ delay: 5000, disableOnInteraction: false }} >
       {props.children}
     </Swiper>

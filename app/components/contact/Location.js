@@ -1,8 +1,6 @@
-import useCheckDevice from '../../custom-hooks/CheckDevice';
 import Wrap from '../ui/Wrap';
 
 const Location = () => {
-    const windowWidth = useCheckDevice();
 
     return (
         <section id="our-location">
@@ -17,7 +15,7 @@ const Location = () => {
                 <iframe title="Map" className="transition duration-300 border-2"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.8848118783935!2d19.73221867674664!3d45.351137440974675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4
         f13.1!3m3!1m2!1s0x475b1598eda01089%3A0xf71a10477312af21!2s%C5%A0ticko%20plast!5e0!3m2!1sen!2sba!4v1695379556070!5m2!1sen!2sba"
-                    width="100%" height={windowWidth >= 1024 ? 450 : 250} loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    width="100%" height={400} loading="lazy" referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
             </Wrap>
         </section>
