@@ -1,0 +1,34 @@
+{
+    "img1": {
+        "src": "../../assets/works/work-min.jpg",
+        "alt": "Ovde ide opis slike1"
+    },
+    "img2": {
+        "src": "../../assets/works/work2-min.jpg",
+        "alt": "Ovde ide opis slike2"
+    },
+    "img3": {
+        "src": "../../assets/works/work3-min.jpg",
+        "alt": "Ovde ide opis slike3"
+    },
+    "img4": {
+        "src": "../../assets/works/work4-min.jpg",
+        "alt": "Ovde ide opis slike4"
+    },
+    "img5": {
+        "src": "../../assets/works/work5-min.jpg",
+        "alt": "Ovde ide opis slike5"
+    },
+    "img6": {
+        "src": "../../assets/works/work6-min.jpg",
+        "alt": "Ovde ide opis slike6"
+    },
+    "img7": {
+        "src": "../../assets/works/work7-min.jpg",
+        "alt": "Ovde ide opis slike7"
+    },
+    "img8": {
+        "src": "../../assets/works/work7-min.jpg",
+        "alt": "Ovde ide opis slike8"
+    }
+}

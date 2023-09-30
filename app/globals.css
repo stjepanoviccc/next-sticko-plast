@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+    --primary: #374151;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary);
+    scroll-behavior: smooth;
+}
+
+/* hero slider */
+.swiper-button-prev,
+.swiper-button-next {
+    transition: 300ms;
+    color: white;
+    margin: 0 10px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: var(--primary);
+    transform: scale(1.2);
+}
+
+.swiper-pagination-bullet {
+    background-color: black;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--primary);
+}

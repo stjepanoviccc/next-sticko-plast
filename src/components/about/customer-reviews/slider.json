@@ -1,0 +1,38 @@
+{
+    "person1": {
+        "src": "../../../assets/BETA.jpg",
+        "alt": "Ovde ide opis slike1",
+        "name": "Andrej Stjepanović",
+        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+    },
+    "person2": {
+        "src": "../../../assets/BETA.jpg",
+        "alt": "Ovde ide opis slike1",
+        "name": "Andrej Stjepanović",
+        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+    },
+    "person3": {
+        "src": "../../../assets/BETA.jpg",
+        "alt": "Ovde ide opis slike1",
+        "name": "Andrej Stjepanović",
+        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+    },
+    "person4": {
+        "src": "../../../assets/BETA.jpg",
+        "alt": "Ovde ide opis slike1",
+        "name": "Andrej Stjepanović",
+        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+    },
+    "person5": {
+        "src": "../../../assets/BETA.jpg",
+        "alt": "Ovde ide opis slike1",
+        "name": "Andrej Stjepanović",
+        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+    },
+    "person6": {
+        "src": "../../../assets/BETA.jpg",
+        "alt": "Ovde ide opis slike1",
+        "name": "Andrej Stjepanović",
+        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+    }
+}
