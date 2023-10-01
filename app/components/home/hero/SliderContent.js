@@ -4,7 +4,7 @@ import TextAppear from "../../ui/animations/TextAppear";
 import useCheckDevice from "../../../custom-hooks/CheckDevice";
 import Wrap from "../../ui/Wrap";
 import ButtonHolder from "../../ui/ButtonHolder";
-import Image from "next/image";
+
 
 const SliderContent = ({ src, alt }) => {
     const [showWrap, setShowWrap] = useState(false);
@@ -19,7 +19,7 @@ const SliderContent = ({ src, alt }) => {
     return (
         <>
             <div className="relative">
-                <Image style={{ height: height, width: '100vw', objectFit: 'cover' }} src={src} alt={alt} />
+                <img style={{ height: height, width: '100vw', objectFit: 'cover' }} src={src} alt={alt} />
                 <div className="absolute inset-0 bg-primary bg-opacity-50"></div>
             </div>
             <TextAppear showWrap={showWrap}>

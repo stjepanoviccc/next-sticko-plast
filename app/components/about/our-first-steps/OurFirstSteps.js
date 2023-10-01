@@ -1,5 +1,4 @@
 import Wrap from "../../ui/Wrap";
-import Image from "next/image";
 
 const OurFirstSteps = () => {
     return (
@@ -20,7 +19,7 @@ const OurFirstSteps = () => {
                         Sed auctor ex in justo malesuada</p>
                     </div>
                     <div className="relative flex-1">
-                        <Image src="../../assets/about/our-first-steps.png" alt="our-first-steps"></Image>
+                        <img src="../../assets/about/our-first-steps.png" alt="our-first-steps"></img>
                     </div>
                 </div>
                 <div>
