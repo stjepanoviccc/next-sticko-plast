@@ -16,9 +16,9 @@ const CustomerReviews = () => {
                     <p>Pogledajte šta naši klijenti kažu o nama i o uslugama koje smo im pružili.</p>
                 </div>
                 <CustomerSlider>
-                    {Object.keys(reviews).map((reviewKey) => (
-                        <SwiperSlide>
-                            <SliderContent key={reviewKey} src={reviews[reviewKey].src} alt={reviews[reviewKey].alt} name={reviews[reviewKey].name} text={reviews[reviewKey].text} />
+                    {Object.keys(reviews).map((reviewKey, index) => (
+                        <SwiperSlide key={index}>
+                            <SliderContent src={reviews[reviewKey].src} alt={reviews[reviewKey].alt} name={reviews[reviewKey].name} text={reviews[reviewKey].text} />
                         </SwiperSlide>
                     ))}
                 </CustomerSlider>

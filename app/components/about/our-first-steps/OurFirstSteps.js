@@ -1,4 +1,5 @@
 import Wrap from "../../ui/Wrap";
+import Image from "next/image";
 
 const OurFirstSteps = () => {
     return (
@@ -10,16 +11,16 @@ const OurFirstSteps = () => {
                 <div className="flex flex-col gap-x-40 gap-y-10 py-8 sm:text-lg lg:py-12 lg:flex-row">
                     <div className="flex-1 flex flex-col justify-center text-center lg:justify-start lg:text-left">
                     <p>Naši prvi koraci potiču jos od... consectetur adipiscing elit. Vivamus efficitur ligula ac elit tincidunt, eu suscipit odio fringilla. Sed auctor ex in justo malesuada,
-                        in consectetur ipsum fermentum."Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ligula ac elit tincidunt, eu suscipit odio fringilla.
+                        in consectetur ipsum fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ligula ac elit tincidunt, eu suscipit odio fringilla.
                         Sed auctor ex in justo malesuada,
-                        in consectetur ipsum fermentum."Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ligula ac elit tincidunt, eu suscipit odio fringilla.
+                        in consectetur ipsum fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ligula ac elit tincidunt, eu suscipit odio fringilla.
                         Sed auctor ex in justo malesuada, in consectetur ipsum fermentum.</p>
                         <p>Naši prvi koraci potiču jos od... consectetur adipiscing elit. Vivamus efficitur ligula ac elit tincidunt, eu suscipit odio fringilla. Sed auctor ex in justo malesuada,
-                        in consectetur ipsum fermentum."Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ligula ac elit tincidunt, eu suscipit odio fringilla.
+                        in consectetur ipsum fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ligula ac elit tincidunt, eu suscipit odio fringilla.
                         Sed auctor ex in justo malesuada</p>
                     </div>
                     <div className="relative flex-1">
-                        <img className="" src="../../assets/about/our-first-steps.png" alt="our-first-steps"></img>
+                        <Image src="../../assets/about/our-first-steps.png" alt="our-first-steps"></Image>
                     </div>
                 </div>
                 <div>

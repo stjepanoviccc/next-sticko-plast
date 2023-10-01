@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import Image from 'next/image';
 
 const WorksSlider = () => {
     const checkDevice = useCheckDevice();
@@ -21,25 +22,25 @@ const WorksSlider = () => {
         <Swiper className="mySwiper" style={{paddingBottom: '2.5rem'}} slidesPerView={sliderPerViewValue} spaceBetween={30} modules={[Autoplay, Pagination]} loop={true} grabCursor={true}
             pagination={{ clickable: true, draggable: true }} autoplay={{ delay: 5000, disableOnInteraction: false }} >
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work-min.jpg" alt="slider-work-img"></img>
+                <Image style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work-min.jpg" alt="slider-work-img"></Image>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work2-min.jpg" alt="slider-work2-img"></img>
+                <Image style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work2-min.jpg" alt="slider-work2-img"></Image>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work3-min.jpg" alt="slider-work3-img"></img>
+                <Image style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work3-min.jpg" alt="slider-work3-img"></Image>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work4-min.jpg" alt="slider-work4-img"></img>
+                <Image style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work4-min.jpg" alt="slider-work4-img"></Image>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work5-min.jpg" alt="slider-work5-img"></img>
+                <Image style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work5-min.jpg" alt="slider-work5-img"></Image>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work6-min.jpg" alt="slider-work6-img"></img>
+                <Image style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work6-min.jpg" alt="slider-work6-img"></Image>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work7-min.jpg" alt="slider-work7-img"></img>
+                <Image style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work7-min.jpg" alt="slider-work7-img"></Image>
             </SwiperSlide>
         </Swiper>
     )

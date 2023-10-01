@@ -6,6 +6,7 @@ import 'swiper/css/navigation';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import Wrap from "../ui/Wrap";
+import Image from "next/image";
 import images from './images.json';
 
 const Gallery = () => {
@@ -63,7 +64,7 @@ const Gallery = () => {
                         <Swiper className="mySwiper mt-6" initialSlide={selectedImageIndex} onSwiper={(swiper) => (swiperRef.current = swiper)} allowTouchMove={false}>
                             {Object.keys(images).map((imageKey) => (
                                 <SwiperSlide key={imageKey}>
-                                    <img className="w-full h-full" src={images[imageKey].src} alt={images[imageKey].alt} />
+                                    <Image className="w-full h-full" src={images[imageKey].src} alt={images[imageKey].alt} />
                                 </SwiperSlide >
                             ))}
                             <div className="text-center text-white">
@@ -82,7 +83,7 @@ const Gallery = () => {
                         <div className="absolute w-full py-5 bg-primary bottom-0 left-0 opacity-0 text-white transition duration-300 group-hover:opacity-100">
                             Otvorite fotografiju
                         </div>
-                        <img src={images[imageKey].src} alt={images[imageKey].alt} className="cursor-pointer"></img>
+                        <Image src={images[imageKey].src} alt={images[imageKey].alt} className="cursor-pointer"></Image>
                     </button>
                 ))}
             </div>

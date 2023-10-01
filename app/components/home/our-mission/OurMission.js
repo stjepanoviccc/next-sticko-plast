@@ -3,6 +3,7 @@ import useCheckDevice from "../../../custom-hooks/CheckDevice";
 import Wrap from "../../ui/Wrap";
 import ButtonHolder from "../../ui/ButtonHolder";
 import AppearOnScroll from "../../ui/animations/AppearOnScroll";
+import Image from "next/image";
 
 const OurMission = () => {
   const windowWidth = useCheckDevice();
@@ -33,7 +34,7 @@ const OurMission = () => {
             </ButtonHolder>
           </div>
           <div className="flex-1 flex justify-center lg:justify-end">
-            <img className="max-h-[500px]" src="../../assets/about/our-mission.jpg" alt="about-img"></img>
+            <Image className="max-h-[500px]" src="../../assets/about/our-mission.jpg" alt="about-img"></Image>
           </div>
         </div>
         <div>
