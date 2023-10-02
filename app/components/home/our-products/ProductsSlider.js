@@ -16,23 +16,23 @@ const ProductsSlider = () => {
     const sliderPerViewValue = desktop ? 3 : tablet ? 2 : mobile ? 1 : '';
 
     return (
-        <Swiper className="mySwiper" style={{paddingBottom: '2.5rem'}} effect={'coverflow'} grabCursor={true} centeredSlides={true} initialSlide={2} pagination={{ clickable: true, draggable: true }} modules={[EffectCoverflow, Pagination]}
+        <Swiper className="mySwiper" style={{ paddingBottom: '2.5rem' }} effect={'coverflow'} grabCursor={true} centeredSlides={true} initialSlide={2} pagination={{ clickable: true, draggable: true }} modules={[EffectCoverflow, Pagination]}
             slidesPerView={sliderPerViewValue} coverflowEffect={{ rotate: rotateValue, stretch: 0, depth: 100, modifier: 1, slideShadows: true, }}
         >
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/the-curtains-min.jpg" alt="the-curtains-img" text="Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet." title="Zavese" />
+                <SliderContent src="../../../assets/products/the-curtains-min.jpg" alt="the-curtains-img" title="Zebra zavese" />
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/venetians-min.jpg" alt="venetians-img" text="Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet." title="Venecijaneri" />
+                <SliderContent src="../../../assets/products/venetians-min.jpg" alt="venetians-img" title="Komarnici" />
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/window-min.jpg" alt="window-img" text="Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet." title="PVC Prozori" />
+                <SliderContent src="../../../assets/products/door-min.jpg" alt="door-img" title="PVC Vrata" />
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/blinds-min.jpg" alt="blinds-img" text="Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet." title="PVC i Alu Roletne" />
+                <SliderContent src="../../../assets/products/window-min.jpg" alt="window-img" title="PVC Prozori" />
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/door-min.jpg" alt="door-img" text="Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet." title="PVC Vrata" />
+                <SliderContent src="../../../assets/products/blinds-min.jpg" alt="blinds-img" title="PVC i Alu Roletne" />
             </SwiperSlide>
         </Swiper>
     )

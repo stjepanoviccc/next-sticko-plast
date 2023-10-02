@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Wrap from '../ui/Wrap';
 import TopBar from './TopBar';
@@ -6,13 +7,28 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const NavMenu = () => {
+    const currentRoute = useRouter().pathname;
+    const [activePage, setActivePage] = useState(currentRoute);
+    const [productDropdownIsActive, setIsProductDropdownActive] = useState(false);
     const [documentationDropdownIsActive, setIsDocumentationDropdownActive] = useState(false);
 
-    const handleMouseEnter = () => {
+    useEffect(() => {
+        setActivePage(currentRoute);
+    }, [currentRoute])
+
+    const handleProductDropdownEnter = () => {
+        setIsProductDropdownActive(true);
+    };
+
+    const handleProductDropdownLeave = () => {
+        setIsProductDropdownActive(false);
+    };
+
+    const handleDocumentationDropdownEnter = () => {
         setIsDocumentationDropdownActive(true);
     };
 
-    const handleMouseLeave = () => {
+    const handleDocumentationDropdownLeave = () => {
         setIsDocumentationDropdownActive(false);
     };
 
@@ -24,29 +40,61 @@ const NavMenu = () => {
                     <div className="flex flex-1">
                         <Link href="/" className="-m-1.5 p-1.5 font-bold text-3xl">ŠTICKO PLAST</Link>
                     </div>
-                    <div className="flex gap-x-12">
-                        <Link href="/" className="py-4 text-base font-semibold transition duration-300 border-b-4 border-transparent hover:border-primary"
-                            aria-label="Početna">Početna</Link>
-                        <Link href="/o-nama" className="py-4 text-base font-semibold transition duration-300 border-b-4 border-transparent hover:border-primary"
-                            aria-label="O nama">O nama</Link>
-                        <Link href="/proizvodi" className="py-4 text-base font-semibold transition duration-300 border-b-4 border-transparent hover:border-primary"
-                            aria-label="Proizvodi">Proizvodi</Link>
-                        <div className="relative cursor-pointer" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
+                    <ul className="flex gap-x-12">
+                        <li className={`relative py-4 text-base font-semibold ${activePage === '/' ? 'navLinkActiveEffect' : 'navLinkBorderEffect'}`}>
+                            <Link href="/" aria-label="Početna">Početna</Link>
+                        </li>
+                        <li className={`relative py-4 text-base font-semibold ${activePage === '/o-nama' ? 'navLinkActiveEffect' : 'navLinkBorderEffect'}`}>
+                            <Link href="/o-nama" aria-label="O nama">O nama</Link>
+                        </li>
+
+                        <li className="relative cursor-pointer" onMouseEnter={handleProductDropdownEnter} onMouseLeave={handleProductDropdownLeave} >
+                            <div className="relative py-4 text-base font-semibold" >
+                                <button type="button" className="flex items-center gap-x-1 " aria-expanded="false" >Proizvodi
+                                    <FontAwesomeIcon className="h-3 w-3 pb-0.5" icon={faChevronDown} />
+                                </button>
+                            </div>
+                            <ul className={`absolute -left-8 top-full z-10 w-64 max-w-md rounded-3xl overflow-y-hidden bg-white shadow-lg
+                                ${productDropdownIsActive ? 'ring-1 ring-gray-900/5 max-h-[450px] transition-max-h duration-300 ease-in py-4' : 'max-h-0 transition-max-h duration-300 ease-out'}`}>
+                                <li>
+                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi" aria-label="Svi Proizvodi">Svi Proizvodi</Link>
+                                </li>
+                                <li>
+                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi#pvc-stolarija" aria-label="PVC Stolarija">PVC Stolarija</Link>
+                                </li>
+                                <li>
+                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi#alu-stolarija" aria-label="Alu Stolarija">Alu Stolarija</Link>
+                                </li>
+                                <li>
+                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi#zavese" aria-label="Zavese">Zavese</Link>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li className="relative cursor-pointer" onMouseEnter={handleDocumentationDropdownEnter} onMouseLeave={handleDocumentationDropdownLeave} >
                             <button type="button" className="relative py-4 flex items-center gap-x-1 text-base font-semibold" aria-expanded="false" >Dokumentacija
                                 <FontAwesomeIcon className="h-3 w-3 pb-0.5" icon={faChevronDown} />
                             </button>
-                            <div className={`absolute -left-8 top-full z-10 w-64 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg
-                                ${documentationDropdownIsActive ? 'ring-1 ring-gray-900/5 max-h-96 transition-max-h duration-300 ease-in' : 'max-h-0 transition-max-h duration-300 ease-out'}`} >
-                                <div className="py-4">
-                                    <Link href="/" className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" aria-label="Dokument">Dokument</Link>
-                                    <Link href="/" className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" aria-label="Dokument">Dokument 2</Link>
-                                    <Link href="/" className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" aria-label="Dokument">Dokument 3</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <Link href="/galerija" className="py-4 text-base font-semibold transition duration-300 border-b-4 border-transparent hover:border-primary" aria-label="Galerija">Galerija</Link>
-                        <Link href="/kontakt" className="py-4 text-base font-semibold transition duration-300 border-b-4 border-transparent hover:border-primary" aria-label="Kontakt">Kontakt</Link>
-                    </div>
+                            <ul className={`absolute -left-8 top-full z-10 w-64 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg
+                                ${documentationDropdownIsActive ? 'ring-1 ring-gray-900/5 max-h-96 transition-max-h duration-300 ease-in py-4' : 'max-h-0 transition-max-h duration-300 ease-out'}`} >
+                                <li>
+                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/" aria-label="Dokument">Dokument</Link>
+                                </li>
+                                <li>
+                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/" aria-label="Dokument">Dokument 2</Link>
+                                </li>
+                                <li>
+                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/" aria-label="Dokument">Dokument 3</Link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className={`relative py-4 text-base font-semibold ${activePage === '/galerija' ? 'navLinkActiveEffect' : 'navLinkBorderEffect'}`}>
+                            <Link href="/galerija" aria-label="Galerija">Galerija</Link>
+                        </li>
+                        <li className={`relative py-4 text-base font-semibold ${activePage === '/kontakt' ? 'navLinkActiveEffect' : 'navLinkBorderEffect'}`}>
+                            <Link href="/kontakt" aria-label="Kontakt">Kontakt</Link>
+                        </li>
+                    </ul>
                 </Wrap>
             </nav>
         </>

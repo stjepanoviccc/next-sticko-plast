@@ -1,10 +1,13 @@
+import ProductsHeader from "../app/components/products/ProductsHeader";
+import NewInTheOffer from "@/app/components/products/new/New";
 
 const ProductsPage = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+    return (
+        <>
+            <ProductsHeader />
+            <NewInTheOffer />
+        </>
+    )
+};
 
 export default ProductsPage;

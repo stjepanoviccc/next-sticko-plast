@@ -13,7 +13,7 @@ const Footer = () => {
 
           <div className="flex flex-1 flex-col gap-y-6 lg:max-w-[30%]">
             <p className="text-4xl font-bold">ŠTICKO PLAST</p>
-            <p>Mi se bavimo proizvodnjom i montiranjem PVC i Alu stolarije za Vaše domove i Vaše poslovne prostore.</p>
+            <p>Mi se bavimo prodajom i montažom PVC i Alu stolarije za Vaše domove i Vaše poslovne prostore.</p>
           </div>
 
           <div className="flex flex-col gap-y-6">
@@ -40,35 +40,35 @@ const Footer = () => {
 
           <div className="flex flex-col gap-y-6">
             <h4 className="text-2xl font-bold">Dokumentacija</h4>
-            <div className="flex flex-col gap-y-2">
-              <Link className="hover:underline" href="/">Dokument</Link>
-              <Link className="hover:underline" href="/">Dokument</Link>
-              <Link className="hover:underline" href="/">Dokument</Link>
-              <p>PIB: 123456789</p>
-            </div>
+            <ul className="flex flex-col gap-y-2">
+              <li><Link className="hover:underline" href="/">Dokument</Link></li>
+              <li><Link className="hover:underline" href="/">Dokument</Link></li>
+              <li><Link className="hover:underline" href="/">Dokument</Link></li>
+              <li><p>PIB: 123456789</p></li>
+            </ul>
           </div>
 
           <div className="flex flex-col gap-y-6">
             <h4 className="text-2xl font-bold">Navigacija</h4>
-            <div className="flex flex-col gap-y-2">
-              <Link className="hover:underline" href="/">Početna</Link>
-              <Link className="hover:underline" href="/o-nama">O nama</Link>
-              <Link className="hover:underline" href="/proizvodi">Proizvodi</Link>
-              <Link className="hover:underline" href="/galerija">Galerija</Link>
-              <Link className="hover:underline" href="/kontakt">Kontakt</Link>
-            </div>
+            <ul className="flex flex-col gap-y-2">
+              <li><Link className="hover:underline" href="/">Početna</Link></li>
+              <li><Link className="hover:underline" href="/o-nama">O nama</Link></li>
+              <li><Link className="hover:underline" href="/proizvodi">Proizvodi</Link></li>
+              <li><Link className="hover:underline" href="/galerija">Galerija</Link></li>
+              <li><Link className="hover:underline" href="/kontakt">Kontakt</Link></li>
+            </ul>
           </div>
         </Wrap>
       </Bar>
 
-      <Bar style={{backgroundColor: '#1F2937'}} textColor="white">
+      <Bar style={{ backgroundColor: '#1F2937' }} textColor="white">
         <Wrap className="flex flex-col-reverse justify-between text-center gap-y-2 pb-4 pt-4 lg:flex-row lg:text-left">
           <p>Sva prava zadržava &copy; 2023 Šticko Plast. Kreirao <Link className="hover:underline" href="/">Andrej Stjepanović</Link></p>
-          <div className="flex gap-x-4 justify-center items-center lg:justify-between">
-            <Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link>
-            <Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faInstagram} /></Link>
-            <Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faLinkedin} /></Link>
-          </div>
+          <ul className="flex gap-x-4 justify-center items-center lg:justify-between">
+            <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link></li>
+            <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faInstagram} /></Link></li>
+            <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faLinkedin} /></Link></li>
+          </ul>
         </Wrap>
       </Bar>
     </footer>

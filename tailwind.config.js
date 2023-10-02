@@ -11,7 +11,19 @@ module.exports = {
         secondary: '#1F2937',
         light: '#ececec'
       },
-    }
-  },
-  plugins: [],
+      keyframes: {
+        borderAnimation: {
+          '0%': {
+            width: '0',
+            left: '0',
+          },
+          '100%': {
+            width: '100%',
+            left: '0',
+          },
+        },
+      }
+    },
+    plugins: [],
+  }
 }

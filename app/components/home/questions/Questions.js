@@ -14,7 +14,7 @@ const Questions = ({ page }) => {
     </div>
     <div className="flex flex-col justify-center items-center pt-8 pb-4 text-center font-bold sm:text-lg lg:pt-12 lg:pb-8">
       <p>Ovde možete pronaći odgovore na najčešće postavljena pitanja od strane naših mušterija.</p>
-      <p>Ukoliko niste pronašli tražene odgovore, uvek nas možete pozvati a mi ćemo se potruditi da Vam na što bolji način objasnimo sve što Vas interesuje.</p>
+      <p>Ukoliko niste pronašli tražene odgovore, uvek nas možete kontaktirati a mi ćemo se potruditi da Vam na što bolji način objasnimo sve što Vas interesuje.</p>
     </div>
     <div className="flex flex-col justify-between gap-0 py-0 lg:py-4 lg:flex-row lg:gap-12">
       <div className="flex flex-col items-center w-full">
