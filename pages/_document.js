@@ -10,9 +10,9 @@ class MyDocument extends Document {
                     <meta property="og:site_name" content="Šticko Plast"></meta>
                     <meta property="og:title" content="Šticko Plast - Montiranje PVC i Alu Stolarije" />
                     <meta property="og:description" content="Šticko Plast - Montiranje PVC i Alu Stolarije" />
-                    <meta property="og:image" content="../public/assets/work-min.jpg" />
+                    <meta property="og:image" content="OVO OBAVEZNO STAVITI SLIKU LIJEPU" />
                     <meta property="og:type" content="website"></meta>
-                    <link rel="icon" href="/favicon.ico" />
+                    <link rel="icon" href="/stickoIcon.png" />
                     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet"></link>
                     <meta name="description" content="Naša firma vam pruža mogućnost da svoj dom prilagodite svojim željama. Mi za Vas montiramo PVC i aluminijumsku stolariju po meri, sa fokusom na kvalitetu i izdržljivosti. Za trajno zadovoljstvo i elegantan izgled, izaberite nas." />
                 </Head>

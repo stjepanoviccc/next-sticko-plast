@@ -1,0 +1,30 @@
+{
+    "door1": {
+        "src": "../../../../assets/products/new/new.jpg",
+        "category": "PVC"
+    },
+    "door2": {
+        "src": "../../../../assets/products/new/new.jpg",
+        "category": "PVC"
+    },
+    "door3": {
+        "src": "../../../../assets/products/new/new.jpg",
+        "category": "Alu"
+    },
+    "door4": {
+        "src": "../../../../assets/products/new/new.jpg",
+        "category": "Alu"
+    },
+    "door5": {
+        "src": "../../../../assets/products/new/new.jpg",
+        "category": "Rolo garažna"
+    },
+    "door6": {
+        "src": "../../../../assets/products/new/new.jpg",
+        "category": "PVC"
+    },
+    "door7": {
+        "src": "../../../../assets/products/new/new.jpg",
+        "category": "PVC"
+    }
+}

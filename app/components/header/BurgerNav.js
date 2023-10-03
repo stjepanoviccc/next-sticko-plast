@@ -29,8 +29,8 @@ const HamburgerMenu = () => {
   return (
     <>
       <Wrap className="flex items-center justify-between bg-white py-6">
-        <Link href="/" className="-m-1.5 p-1.5 font-bold text-3xl">
-          ŠTICKO PLAST
+        <Link className="w-64 mb-1.5" href="/">
+          <img src="../../assets/header/logo-colored.png" alt="logo"></img>
         </Link>
         <button type="button" onClick={toggleMenu}>
           <FontAwesomeIcon className="text-3xl pt-0.5" icon={faBars} />
@@ -43,7 +43,7 @@ const HamburgerMenu = () => {
         <div className="fixed inset-y-0 right-0 z-10 px-6 py-6  w-full overflow-y-auto bg-primary sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link onClick={toggleMenu} href="/" className="-m-1.5 p-1.5">
-              ŠTICKO PLAST
+              <img className="w-64 mb-1.5" src="../../assets/header/logo-white.png" alt="nav-logo"></img>
             </Link>
             <button type="button" onClick={toggleMenu} className="-m-2.5 rounded-md p-2.5 text-white">
               <FontAwesomeIcon className="h-5 w-5" icon={faClose} />

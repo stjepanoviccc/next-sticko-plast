@@ -37,9 +37,9 @@ const NavMenu = () => {
             <TopBar />
             <nav aria-label="Navigation" >
                 <Wrap className="flex items-center justify-between py-5">
-                    <div className="flex flex-1">
-                        <Link href="/" className="-m-1.5 p-1.5 font-bold text-3xl">ŠTICKO PLAST</Link>
-                    </div>
+                    <Link href="/">
+                        <img className="w-64 cursor-pointer" src="../../assets/header/logo-colored.png" alt="logo"></img>
+                    </Link>
                     <ul className="flex gap-x-12">
                         <li className={`relative py-4 text-base font-semibold ${activePage === '/' ? 'navLinkActiveEffect' : 'navLinkBorderEffect'}`}>
                             <Link href="/" aria-label="Početna">Početna</Link>
@@ -57,16 +57,25 @@ const NavMenu = () => {
                             <ul className={`absolute -left-8 top-full z-10 w-64 max-w-md rounded-3xl overflow-y-hidden bg-white shadow-lg
                                 ${productDropdownIsActive ? 'ring-1 ring-gray-900/5 max-h-[450px] transition-max-h duration-300 ease-in py-4' : 'max-h-0 transition-max-h duration-300 ease-out'}`}>
                                 <li>
-                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi" aria-label="Svi Proizvodi">Svi Proizvodi</Link>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi/vrata" aria-label="Vrata">Vrata</Link>
                                 </li>
                                 <li>
-                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi#pvc-stolarija" aria-label="PVC Stolarija">PVC Stolarija</Link>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi/prozori" aria-label="Prozori">Prozori</Link>
                                 </li>
                                 <li>
-                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi#alu-stolarija" aria-label="Alu Stolarija">Alu Stolarija</Link>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi/roletne" aria-label="Roletne">Roletne</Link>
                                 </li>
                                 <li>
-                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi#zavese" aria-label="Zavese">Zavese</Link>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi/zavese" aria-label="Zavese">Zavese</Link>
+                                </li>
+                                <li>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi/komarnici" aria-label="Komarnici">Komarnici</Link>
+                                </li>
+                                <li>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi/venecijaneri" aria-label="Venecijaneri">Venecijaneri</Link>
+                                </li>
+                                <li>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/proizvodi/ograde" aria-label="Ograde">Ograde</Link>
                                 </li>
                             </ul>
                         </li>
@@ -78,13 +87,13 @@ const NavMenu = () => {
                             <ul className={`absolute -left-8 top-full z-10 w-64 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg
                                 ${documentationDropdownIsActive ? 'ring-1 ring-gray-900/5 max-h-96 transition-max-h duration-300 ease-in py-4' : 'max-h-0 transition-max-h duration-300 ease-out'}`} >
                                 <li>
-                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/" aria-label="Dokument">Dokument</Link>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/" aria-label="Dokument">Dokument</Link>
                                 </li>
                                 <li>
-                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/" aria-label="Dokument">Dokument 2</Link>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/" aria-label="Dokument">Dokument 2</Link>
                                 </li>
                                 <li>
-                                    <Link className="block p-4 text-sm font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/" aria-label="Dokument">Dokument 3</Link>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/" aria-label="Dokument">Dokument 3</Link>
                                 </li>
                             </ul>
                         </li>

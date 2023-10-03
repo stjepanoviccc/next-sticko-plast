@@ -8,7 +8,7 @@ const Header = () => {
   const [nav, setNav] = useState(null);
 
   useEffect(() => {
-    { deviceWidth >= 1024 ? setNav(<DesktopNav />) : setNav(<BurgerNav />) }
+    { deviceWidth >= 1280 ? setNav(<DesktopNav />) : setNav(<BurgerNav />) }
   }, [deviceWidth]);
 
   return (

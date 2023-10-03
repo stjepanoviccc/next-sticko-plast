@@ -1,8 +1,9 @@
 import Wrap from "../../ui/Wrap";
 
 const NewInTheOffer = () => {
+
     return (
-        <section id="new-in-the-offer">
+        <section id="new-in-the-offer py-64">
             <Wrap className="py-12 md:py-32">
                 <div className="flex justify-center items-center">
                     <h2 className="pb-2 font-bold text-2xl border-b-2 border-primary sm:text-4xl">USKORO NOVO U PONUDI !</h2>
@@ -13,9 +14,9 @@ const NewInTheOffer = () => {
                 <div className="rounded-xl pt-6">
                     <img className="cursor-pointer" src="../../../../assets/products/new/new.jpg"></img>
                 </div>
-        </Wrap>
+            </Wrap>
         </section >
     )
 }
 
-export default NewInTheOffer
+export default NewInTheOffer;

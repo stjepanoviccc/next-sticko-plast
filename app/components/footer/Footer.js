@@ -11,8 +11,10 @@ const Footer = () => {
       <Bar bgColor="primary" textColor="white">
         <Wrap className="flex flex-col text-center gap-y-12 items-center justify-between pt-12 pb-12 md:pt-16 md:pb-16 lg:flex-row lg:items-start lg:text-left lg:gap-y-0">
 
-          <div className="flex flex-1 flex-col gap-y-6 lg:max-w-[30%]">
-            <p className="text-4xl font-bold">ŠTICKO PLAST</p>
+          <div className="flex flex-1 items-center flex-col gap-y-6 lg:items-start lg:max-w-[30%]">
+            <Link className="w-64" href="/">
+              <img className="full" src="../../assets/header/logo-white.png" alt="logo"></img>
+            </Link>
             <p>Mi se bavimo prodajom i montažom PVC i Alu stolarije za Vaše domove i Vaše poslovne prostore.</p>
           </div>
 
