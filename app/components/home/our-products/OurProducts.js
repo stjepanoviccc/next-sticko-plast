@@ -1,7 +1,5 @@
-import Link from "next/link";
 import Wrap from "../../ui/Wrap";
 import ProductsSlider from "./ProductsSlider";
-import ButtonHolder from "../../ui/ButtonHolder";
 import AppearOnScroll from "../../ui/animations/AppearOnScroll";
 import useCheckDevice from "../../../custom-hooks/CheckDevice";
 
@@ -22,13 +20,6 @@ const OurProducts = () => {
           <div className="pb-4">
             <ProductsSlider />
           </div>
-          <ButtonHolder className="py-8 text-center">
-            <button type="button">
-              <Link href="proizvodi" className="uppercase px-6 py-4 font-bold leading-6 text-white bg-primary border-2 border-primary rounded-xl
-                    transition duration-300 hover:text-primary hover:bg-transparent hover:border-primary">Pregledajte sve proizvode
-              </Link>
-            </button>
-          </ButtonHolder>
         </Wrap>
       </AppearOnScroll>
     </section>

@@ -64,3 +64,23 @@ body {
 .swiper-pagination-bullet-active {
     background-color: var(--primary) !important;
 }
+
+/* products category state and select menu */
+.active-button {
+    background-color: var(--primary);
+    color: white;
+}
+
+select {
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    outline: none;
+}
+
+select option {
+    color: var(--primary);
+}

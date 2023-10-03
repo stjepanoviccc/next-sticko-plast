@@ -1,0 +1,12 @@
+{
+    "blinds1": {
+        "src": "../../../../assets/products/doors/pvc-door1.jpg",
+        "category": "PVC",
+        "alt": "pvc-blinds1"
+    },
+    "blinds2": {
+        "src": "../../../../assets/products/doors/pvc-door1.jpg",
+        "category": "Alu",
+        "alt": "alu-blinds1"
+    }
+}

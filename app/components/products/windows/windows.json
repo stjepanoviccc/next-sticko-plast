@@ -1,0 +1,12 @@
+{
+    "window1": {
+        "src": "../../../../assets/products/doors/pvc-door1.jpg",
+        "category": "PVC",
+        "alt": "pvc-window1"
+    },
+    "window2": {
+        "src": "../../../../assets/products/doors/pvc-door2.jpg",
+        "category": "Alu",
+        "alt": "pvc-window2"
+    }
+}

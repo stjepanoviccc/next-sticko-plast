@@ -1,30 +1,47 @@
 {
     "door1": {
-        "src": "../../../../assets/products/new/new.jpg",
-        "category": "PVC"
+        "src": "../../../../assets/products/doors/pvc-door1.jpg",
+        "category": "PVC",
+        "alt": "pvc-door1"
     },
     "door2": {
-        "src": "../../../../assets/products/new/new.jpg",
-        "category": "PVC"
+        "src": "../../../../assets/products/doors/pvc-door2.jpg",
+        "category": "PVC",
+        "alt": "pvc-door2"
     },
     "door3": {
-        "src": "../../../../assets/products/new/new.jpg",
-        "category": "Alu"
+        "src": "../../../../assets/products/doors/pvc-door3.jpg",
+        "category": "PVC",
+        "alt": "pvc-door3"
     },
     "door4": {
-        "src": "../../../../assets/products/new/new.jpg",
-        "category": "Alu"
+        "src": "../../../../assets/products/doors/pvc-door4.jpg",
+        "category": "PVC",
+        "alt": "pvc-door4"
     },
     "door5": {
-        "src": "../../../../assets/products/new/new.jpg",
-        "category": "Rolo garažna"
+        "src": "../../../../assets/products/doors/pvc-door5.jpg",
+        "category": "PVC",
+        "alt": "pvc-door5"
     },
     "door6": {
-        "src": "../../../../assets/products/new/new.jpg",
-        "category": "PVC"
+        "src": "../../../../assets/products/doors/pvc-door6.jpg",
+        "category": "PVC",
+        "alt": "pvc-door6"
     },
     "door7": {
-        "src": "../../../../assets/products/new/new.jpg",
-        "category": "PVC"
+        "src": "../../../../assets/products/doors/pvc-door7.jpg",
+        "category": "PVC",
+        "alt": "pvc-door7"
+    },
+    "door8": {
+        "src": "../../../../assets/products/doors/pvc-door8.jpg",
+        "category": "PVC",
+        "alt": "pvc-door8"
+    },
+    "door9": {
+        "src": "../../../../assets/products/doors/alu-door1.jpg",
+        "category": "Alu",
+        "alt": "alu-door1"
     }
 }

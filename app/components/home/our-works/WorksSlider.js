@@ -40,13 +40,13 @@ const WorksSlider = () => {
                 <img loading="eager" style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work3-min.jpg" alt="slider-work3-img"></img>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
+                <img loading="eager" style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work4-min.jpg" alt="slider-work4-img"></img>
+            </SwiperSlide>
+            <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
                 <img loading="eager" style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work5-min.jpg" alt="slider-work5-img"></img>
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
                 <img loading="eager" style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work6-min.jpg" alt="slider-work6-img"></img>
-            </SwiperSlide>
-            <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <img loading="eager" style={{ minHeight: imgHeight }} className="w-full rounded-xl" src="../../../assets/works/work7-min.jpg" alt="slider-work7-img"></img>
             </SwiperSlide>
         </Swiper>
     )
