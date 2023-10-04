@@ -3,7 +3,7 @@ import Wrap from "../ui/Wrap";
 const ProductsSection = ({ sectionId, title, products }) => {
     return (
         <section className="bg-light" id={sectionId} >
-            <Wrap className="py-12 md:py-32" >
+            <Wrap className="py-12 md:py-32">
                 <div className="flex justify-center items-center">
                     <h2 className="pb-2 font-bold text-2xl border-b-2 border-primary sm:text-4xl">{title}</h2>
                 </div>

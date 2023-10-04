@@ -9,7 +9,8 @@ module.exports = {
       colors: {
         primary: '#374151',
         secondary: '#1F2937',
-        light: '#ececec'
+        light: '#ececec',
+        light2: '#f9f9f9'
       },
       keyframes: {
         borderAnimation: {

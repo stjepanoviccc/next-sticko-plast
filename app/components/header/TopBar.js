@@ -3,9 +3,13 @@ import Wrap from "../ui/Wrap";
 import Bar from "../ui/Bar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faPhone, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram, faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { useLanguageCtx } from "@/app/context/LanguageContext";
 
 const TopBar = () => {
+    const languageCtx = useLanguageCtx().language;
+    const workingDaysString = languageCtx === "SR" ? "Ponedeljak - Subota" : languageCtx === "EN" ? "Monday - Saturday" : 'Working days error';
+    const countryString = languageCtx === "SR" ? "Srbija" : languageCtx === "EN" ? "Serbia" : 'Country name error';
 
     return (
         <Bar bgColor="primary" textColor="white">
@@ -21,17 +25,18 @@ const TopBar = () => {
                     </li>
                     <li className="flex gap-x-2 justify-between items-center">
                         <FontAwesomeIcon icon={faLocationDot} />
-                        <p className="text-sm">Masarikova 37, Kisac, Srbija</p>
+                        <p className="text-sm">Masarikova 37, Kisač, {countryString}</p>
                     </li>
                     <li className="flex gap-x-2 justify-between items-center">
                         <FontAwesomeIcon icon={faClock} />
-                        <p className="text-sm">Ponedeljak - Subota | 07:00 - 16:00</p>
+                        <p className="text-sm"> {workingDaysString} | 07:00 - 16:00
+                        </p>
                     </li>
                 </ul>
                 <ul className="flex gap-x-4 justify-between items-center">
                     <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link></li>
                     <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faInstagram} /></Link></li>
-                    <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faLinkedin} /></Link></li>
+                    <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faTiktok} /></Link></li>
                 </ul>
             </Wrap>
         </Bar>

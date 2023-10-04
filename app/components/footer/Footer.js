@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faPhone, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram, faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import Bar from '../ui/Bar';
 import Wrap from '../ui/Wrap';
 
@@ -11,7 +11,7 @@ const Footer = () => {
       <Bar bgColor="primary" textColor="white">
         <Wrap className="flex flex-col text-center gap-y-12 items-center justify-between pt-12 pb-12 md:pt-16 md:pb-16 lg:flex-row lg:items-start lg:text-left lg:gap-y-0">
 
-          <div className="flex flex-1 items-center flex-col gap-y-6 lg:items-start lg:max-w-[30%]">
+          <div className="flex flex-1 items-center flex-col gap-y-6 lg:items-start lg:max-w-[25%]">
             <Link className="w-64" href="/">
               <img className="full" src="../../assets/header/logo-white.png" alt="logo"></img>
             </Link>
@@ -41,7 +41,17 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col gap-y-6">
-            <h4 className="text-2xl font-bold">Dokumentacija</h4>
+            <h4 className="text-2xl font-bold">Navigacija</h4>
+            <ul className="flex flex-col gap-y-2">
+              <li><Link className="hover:underline" href="/">Početna</Link></li>
+              <li><Link className="hover:underline" href="/o-nama">O nama</Link></li>
+              <li><Link className="hover:underline" href="/galerija">Galerija</Link></li>
+              <li><Link className="hover:underline" href="/kontakt">Kontakt</Link></li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-y-6">
+            <h4 className="text-2xl font-bold">Dokumenti</h4>
             <ul className="flex flex-col gap-y-2">
               <li><Link className="hover:underline" href="/">Dokument</Link></li>
               <li><Link className="hover:underline" href="/">Dokument</Link></li>
@@ -51,15 +61,18 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col gap-y-6">
-            <h4 className="text-2xl font-bold">Navigacija</h4>
+            <h4 className="text-2xl font-bold">Proizvodi</h4>
             <ul className="flex flex-col gap-y-2">
-              <li><Link className="hover:underline" href="/">Početna</Link></li>
-              <li><Link className="hover:underline" href="/o-nama">O nama</Link></li>
-              <li><Link className="hover:underline" href="/proizvodi">Proizvodi</Link></li>
-              <li><Link className="hover:underline" href="/galerija">Galerija</Link></li>
-              <li><Link className="hover:underline" href="/kontakt">Kontakt</Link></li>
+              <li><Link className="hover:underline" href="/proizvodi/vrata">Vrata</Link></li>
+              <li><Link className="hover:underline" href="/proizvodi/prozori">Prozori</Link></li>
+              <li><Link className="hover:underline" href="/proizvodi/roletne">Roletne</Link></li>
+              <li><Link className="hover:underline" href="/proizvodi/zavese">Zavese</Link></li>
+              <li><Link className="hover:underline" href="/proizvodi/komarnici">Komarnici</Link></li>
+              <li><Link className="hover:underline" href="/proizvodi/venecijaneri">Venecijaneri</Link></li>
+              <li><Link className="hover:underline" href="/proizvodi/ograde">Ograde</Link></li>
             </ul>
           </div>
+
         </Wrap>
       </Bar>
 
@@ -69,7 +82,7 @@ const Footer = () => {
           <ul className="flex gap-x-4 justify-center items-center lg:justify-between">
             <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link></li>
             <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faInstagram} /></Link></li>
-            <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faLinkedin} /></Link></li>
+            <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faTiktok} /></Link></li>
           </ul>
         </Wrap>
       </Bar>

@@ -33,7 +33,7 @@ const Doors = () => {
                                 <p>Nema proizvoda za prikazati.</p>
                             ) : (
                                 Object.keys(doors).map((doorKey) => (
-                                    <ProductsItem key={doorKey} src={doors[doorKey].src} category={doors[doorKey].category} />
+                                    <ProductsItem key={doorKey} src={doors[doorKey].src} category={doors[doorKey].category} alt={doors[doorKey].alt} />
                                 ))
                             )
                         )}
@@ -45,7 +45,7 @@ const Doors = () => {
                                 Object.keys(doors)
                                     .filter((doorKey) => doors[doorKey].category === activeCategory)
                                     .map((doorKey) => (
-                                        <ProductsItem key={doorKey} src={doors[doorKey].src} category={doors[doorKey].category} />
+                                        <ProductsItem key={doorKey} src={doors[doorKey].src} category={doors[doorKey].category} alt={doors[doorKey].alt} />
                                     ))
                             )
                         )}

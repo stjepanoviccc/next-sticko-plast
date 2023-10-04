@@ -3,10 +3,11 @@ import Link from 'next/link';
 import Wrap from '../ui/Wrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faClose, faBars, faClock, faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faFacebook, faViber } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
 
 const HamburgerMenu = () => {
   const [menuIsActive, setIsMenuActive] = useState(false);
+  const [productsDropdownIsActive, setIsProductsDropdownActive] = useState(false);
   const [documentationDropdownIsActive, setIsDocumentationDropdownActive] = useState(false);
 
   // make whole app unscrollable
@@ -17,8 +18,13 @@ const HamburgerMenu = () => {
   const toggleMenu = () => {
     setIsMenuActive(prev => !prev);
   }
+
   const toggleDocumentationDropdown = () => {
     setIsDocumentationDropdownActive(prev => !prev);
+  }
+
+  const toggleProductsDropdown = () => {
+    setIsProductsDropdownActive(prev => !prev);
   }
 
   const phoneNumber = "+381 64 1284447";
@@ -54,18 +60,34 @@ const HamburgerMenu = () => {
               <div className="space-y-2 py-6">
                 <Link onClick={toggleMenu} href="/" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">Početna</Link>
                 <Link onClick={toggleMenu} href="/o-nama" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">O nama</Link>
-                <Link onClick={toggleMenu} href="/proizvodi" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">Proizvodi</Link>
+                <div className="-mx-3">
+                  <button type="button" onClick={toggleProductsDropdown}
+                    className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white" aria-expanded="false">
+                    Proizvodi
+                    <FontAwesomeIcon className="h-3 w-3" icon={faChevronDown} />
+                  </button>
+                  <div className={`${productsDropdownIsActive ? 'mt-2 space-y-2 max-h-96 transition-max-h duration-100 ease-in opacity-1 pointer-events-auto' :
+                    'max-h-0 transition-max-h duration-100 ease-out opacity-0 pointer-events-none'}`}>
+                    <Link onClick={toggleMenu} href="/proizvodi/vrata" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Vrata</Link>
+                    <Link onClick={toggleMenu} href="/proizvodi/prozori" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Prozori</Link>
+                    <Link onClick={toggleMenu} href="/proizvodi/roletne" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Roletne</Link>
+                    <Link onClick={toggleMenu} href="/proizvodi/zavese" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Zavese</Link>
+                    <Link onClick={toggleMenu} href="/proizvodi/komarnici" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Komarnici</Link>
+                    <Link onClick={toggleMenu} href="/proizvodi/venecijaneri" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Venecijaneri</Link>
+                    <Link onClick={toggleMenu} href="/proizvodi/ograde" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Ograde</Link>
+                  </div>
+                </div>
                 <div className="-mx-3">
                   <button type="button" onClick={toggleDocumentationDropdown}
                     className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white" aria-expanded="false">
-                    Dokumentacija
+                    Dokumenti
                     <FontAwesomeIcon className="h-3 w-3" icon={faChevronDown} />
                   </button>
                   <div className={`${documentationDropdownIsActive ? 'mt-2 space-y-2 max-h-96 transition-max-h duration-100 ease-in opacity-1 pointer-events-auto' :
                     'max-h-0 transition-max-h duration-100 ease-out opacity-0 pointer-events-none'}`}>
-                    <Link href="/" className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white">Dokument</Link>
-                    <Link href="/" className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white">Dokument 2</Link>
-                    <Link href="/" className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white">Dokument 3</Link>
+                    <Link onClick={toggleMenu} href="/" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Dokument</Link>
+                    <Link onClick={toggleMenu} href="/" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Dokument 2</Link>
+                    <Link onClick={toggleMenu} href="/" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Dokument 3</Link>
                   </div>
                 </div>
                 <Link onClick={toggleMenu} href="/galerija" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">Galerija</Link>
@@ -92,7 +114,7 @@ const HamburgerMenu = () => {
               <div className="py-6 flex justify-center items-center gap-x-12 text-white">
                 <Link onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon size="xl" icon={faFacebook} /></Link>
                 <Link onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon size="xl" icon={faInstagram} /></Link>
-                <Link onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon size="xl" icon={faViber} /></Link>
+                <Link onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon size="xl" icon={faTiktok} /></Link>
               </div>
             </div>
           </div>

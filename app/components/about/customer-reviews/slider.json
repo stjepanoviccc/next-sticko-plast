@@ -1,38 +1,38 @@
 {
     "person1": {
-        "src": "../../../assets/BETA.jpg",
-        "alt": "Ovde ide opis slike1",
-        "name": "Andrej Stjepanović",
-        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+        "src": "../../../assets/about/reviews/person1.jpg",
+        "alt": "person1",
+        "name": "Svetozar Stojkov",
+        "text": "Sve pohvale za Šticko Plast. Naručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
     },
     "person2": {
-        "src": "../../../assets/BETA.jpg",
-        "alt": "Ovde ide opis slike1",
-        "name": "Andrej Stjepanović",
-        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+        "src": "../../../assets/about/reviews/person2.jpg",
+        "alt": "person2",
+        "name": "Đorđe Krgović",
+        "text": "Prezadovoljan sam uslugom koju sam dobio za jako pristupačnu cenu. Kada budem ponovo trebao nešto u vezi stolarije, biće to od Šticko Plast."
     },
     "person3": {
-        "src": "../../../assets/BETA.jpg",
-        "alt": "Ovde ide opis slike1",
-        "name": "Andrej Stjepanović",
-        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+        "src": "../../../assets/about/reviews/person3.jpg",
+        "alt": "person3",
+        "name": "Nikola Marković",
+        "text": "Profesionalna ekipa! Opremili su mi kancelariju i nakon toga sve fino počistili i nije bilo nikakve štete. Pohvale za momke samo napred."
     },
     "person4": {
-        "src": "../../../assets/BETA.jpg",
-        "alt": "Ovde ide opis slike1",
-        "name": "Andrej Stjepanović",
-        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+        "src": "../../../assets/about/reviews/person4.jpg",
+        "alt": "person4",
+        "name": "Daliborka Pešić",
+        "text": "Veoma sam zadovoljna uslugom, naručena vrata su stigla kroz par dana, identična kao sa slike. Jako prijatni momci, usluga za deset!"
     },
     "person5": {
-        "src": "../../../assets/BETA.jpg",
-        "alt": "Ovde ide opis slike1",
-        "name": "Andrej Stjepanović",
-        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+        "src": "../../../assets/about/reviews/person5.jpg",
+        "alt": "person5",
+        "name": "Mirjana Živadinović",
+        "text": "Vrhunska usluga. Radujem se ponovnoj saradnji sa Šticko Plast, topla preporuka sa moje strane, odnos cene i kvaliteta zagarantovan."
     },
     "person6": {
-        "src": "../../../assets/BETA.jpg",
-        "alt": "Ovde ide opis slike1",
-        "name": "Andrej Stjepanović",
-        "text": "Sve pohvale za Šticko Plast. Poručio sam od njih zebraste zavese i stigle su mi kroz dva dana. Brzina i kvalitet usluge na nivou. Sve najbolje."
+        "src": "../../../assets/about/reviews/person6.jpg",
+        "alt": "person6",
+        "name": "Una Vasić",
+        "text": "Bila sam u potražnji za kvalitetnim PVC vratima i dobila sam preporuku da pozovem Šticko Plast. Malo je reći da je usluga vrhunska! Sve pohvale za ekipu."
     }
 }

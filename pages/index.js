@@ -5,6 +5,7 @@ import OurQualitiesBar from "../app/components/home/our-qualities/OurQualitiesBa
 import OurProducts from '../app/components/home/our-products/OurProducts';
 import OurWorks from "../app/components/home/our-works/OurWorks";
 import Questions from "../app/components/home/questions/Questions";
+import OurPartners from "../app/components/home/our-partners/OurPartners";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <OurProducts />
       <OurWorks />
       <Questions />
+      <OurPartners />
     </>
   )
 }
