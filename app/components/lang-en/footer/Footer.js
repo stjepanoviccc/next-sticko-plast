@@ -53,10 +53,10 @@ const enFooter = () => {
           <div className="flex flex-col gap-y-6">
             <h4 className="text-2xl font-bold">Documents</h4>
             <ul className="flex flex-col gap-y-2">
+              <li><Link className="hover:underline" href="/ispitivanja-ift-rosenheim.pdf">Evidence Ift Rosenheim</Link></li>
+              <li><Link className="hover:underline" href="/ispitivanja-ims-beograd.pdf">Evidence Ims Beograd</Link></li>
               <li><Link className="hover:underline" href="/">Document</Link></li>
-              <li><Link className="hover:underline" href="/">Document</Link></li>
-              <li><Link className="hover:underline" href="/">Document</Link></li>
-              <li><p>PIB: 123456789</p></li>
+              <li><p>PIB: 111339405</p></li>
             </ul>
           </div>
 

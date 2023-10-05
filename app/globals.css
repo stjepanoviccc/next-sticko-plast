@@ -46,15 +46,8 @@ body {
 /* hero slider */
 .swiper-button-prev,
 .swiper-button-next {
-    transition: 300ms;
     color: white !important;
     margin: 0 10px;
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-    color: var(--primary) !important;
-    transform: scale(1.2);
 }
 
 .swiper-pagination-bullet {

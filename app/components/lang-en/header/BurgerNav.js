@@ -92,8 +92,8 @@ const HamburgerMenu = () => {
                   </button>
                   <div className={`${documentationDropdownIsActive ? 'mt-2 space-y-2 max-h-96 transition-max-h duration-100 ease-in opacity-1 pointer-events-auto' :
                     'max-h-0 transition-max-h duration-100 ease-out opacity-0 pointer-events-none'}`}>
-                    <Link onClick={toggleMenu} href="/" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Document</Link>
-                    <Link onClick={toggleMenu} href="/" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Document 2</Link>
+                    <Link onClick={toggleMenu} href="/ispitivanja-ift-rosenheim.pdf" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Evidence Ift Rosenheim</Link>
+                    <Link onClick={toggleMenu} href="/ispitivanja-ims-beograd.pdf" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Evidence Ims Beograd</Link>
                     <Link onClick={toggleMenu} href="/" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Document 3</Link>
                   </div>
                 </div>

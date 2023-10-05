@@ -104,11 +104,11 @@ const NavMenu = () => {
                                 ${documentationDropdownIsActive ? 'ring-1 ring-gray-900/5 max-h-96 transition-max-h duration-300 ease-in py-4' : 'max-h-0 transition-max-h duration-300 ease-out'}`} >
                                 <li>
                                     <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white"
-                                        onClick={handleDocumentationDropdownLeave} href="/" aria-label="Dokument">Document</Link>
+                                        onClick={handleDocumentationDropdownLeave} href="/ispitivanja-ift-rosenheim.pdf" aria-label="Dokument">Evidence Ift Rosenheim</Link>
                                 </li>
                                 <li>
                                     <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white"
-                                        onClick={handleDocumentationDropdownLeave} href="/" aria-label="Dokument">Document 2</Link>
+                                        onClick={handleDocumentationDropdownLeave} href="/ispitivanja-ims-beograd.pdf" aria-label="Dokument">Evidence Ims Beograd</Link>
                                 </li>
                                 <li>
                                     <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white"

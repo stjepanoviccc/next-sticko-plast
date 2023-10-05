@@ -103,12 +103,12 @@ const NavMenu = () => {
                             <ul className={`absolute -left-8 top-full z-10 w-60 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg
                                 ${documentationDropdownIsActive ? 'ring-1 ring-gray-900/5 max-h-96 transition-max-h duration-300 ease-in py-4' : 'max-h-0 transition-max-h duration-300 ease-out'}`} >
                                 <li>
-                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white" href="/"
-                                        onClick={handleDocumentationDropdownLeave} aria-label="Dokument">Dokument</Link>
+                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white"
+                                        onClick={handleDocumentationDropdownLeave} href="/ispitivanja-ift-rosenheim.pdf" aria-label="Dokument">Ispitivanja Ift Rosenheim</Link>
                                 </li>
                                 <li>
                                     <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white"
-                                        onClick={handleDocumentationDropdownLeave} href="/" aria-label="Dokument">Dokument 2</Link>
+                                        onClick={handleDocumentationDropdownLeave} href="/ispitivanja-ims-beograd.pdf" aria-label="Dokument">Ispitivanja Ims Beograd</Link>
                                 </li>
                                 <li>
                                     <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white"
