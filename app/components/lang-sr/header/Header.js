@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import DesktopNav from './DesktopNav';
 import BurgerNav from './BurgerNav';
 
-const srHeader = () => {
+const SrHeader = () => {
   const [windowWidth, setWindowWidth] = useState(null);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ const srHeader = () => {
   );
 }
 
-export default srHeader;
+export default SrHeader;

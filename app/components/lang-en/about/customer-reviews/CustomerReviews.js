@@ -13,7 +13,7 @@ const CustomerReviews = () => {
                     <h2 className="pb-2 font-bold text-2xl border-b-2 border-primary sm:text-4xl">Reviews</h2>
                 </div>
                 <div className="flex flex-col justify-center items-center pt-8 text-center font-bold sm:text-lg lg:pt-12">
-                    <p>See what our clients say about us and the services we've provided.</p>
+                    <p>See what our clients say about us and the services we have provided.</p>
                 </div>
                 <CustomerSlider>
                     {Object.keys(reviews).map((reviewKey, index) => (

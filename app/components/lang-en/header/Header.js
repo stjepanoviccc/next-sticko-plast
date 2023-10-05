@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import DesktopNav from './DesktopNav';
 import BurgerNav from './BurgerNav';
 
-const enHeader = () => {
+const EnHeader = () => {
   const [windowWidth, setWindowWidth] = useState(null);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ const enHeader = () => {
   );
 }
 
-export default enHeader;
+export default EnHeader;
