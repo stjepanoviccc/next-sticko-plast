@@ -1,5 +1,5 @@
-import ProductsHeader from "../../app/components/products/ProductsHeader";
-import Doors from "../../app/components/products/doors/Doors";
+import ProductsHeader from "../../app/components/lang-sr/products/ProductsHeader";
+import Doors from "../../app/components/lang-sr/products/doors/Doors";
 import Head from "next/head";
 
 const VrataPage = () => {

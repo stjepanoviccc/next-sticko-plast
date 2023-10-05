@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Hero from "../../app/components/home/hero/Hero";
-import OurMission from '../../app/components/home/our-mission/OurMission';
-import OurQualitiesBar from "../../app/components/home/our-qualities/OurQualitiesBar";
-import OurProducts from '../../app/components/home/our-products/OurProducts';
-import OurWorks from "../../app/components/home/our-works/OurWorks";
-import Questions from "../../app/components/home/questions/Questions";
-import OurPartners from "../../app/components/home/our-partners/OurPartners";
+import Hero from "../../app/components/lang-en/home/hero/Hero";
+import OurMission from '../../app/components/lang-en/home/our-mission/OurMission';
+import OurQualitiesBar from "../../app/components/lang-en/home/our-qualities/OurQualitiesBar";
+import OurProducts from '../../app/components/lang-en/home/our-products/OurProducts';
+import OurWorks from "../../app/components/lang-en/home/our-works/OurWorks";
+import Questions from "../../app/components/lang-en/home/questions/Questions";
+import OurPartners from "../../app/components/lang-en/home/our-partners/OurPartners";
 
 const HomePage = () => {
   return (

@@ -1,0 +1,26 @@
+{
+    "img1": {
+        "src": "../../../assets/works/work-min.jpg",
+        "alt": "slider-work-img"
+    },
+    "img2": {
+        "src": "../../../assets/works/work2-min.jpg",
+        "alt": "slider-work2-img"
+    },
+    "img3": {
+        "src": "../../../assets/works/work3-min.jpg",
+        "alt": "slider-work3-img"
+    },
+    "img4": {
+        "src": "../../../assets/works/work4-min.jpg",
+        "alt": "slider-work4-img"
+    },
+    "img5": {
+        "src": "../../../assets/works/work5-min.jpg",
+        "alt": "slider-work5-img"
+    },
+    "img6": {
+        "src": "../../../assets/works/work6-min.jpg",
+        "alt": "slider-work6-img"
+    }
+}

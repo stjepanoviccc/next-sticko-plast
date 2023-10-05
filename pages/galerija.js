@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import GalleryHeader from '../app/components/gallery/GalleryHeader';
-import Gallery from '../app/components/gallery/Gallery';
+import GalleryHeader from '../app/components/lang-sr/gallery/GalleryHeader';
+import Gallery from '../app/components/lang-sr/gallery/Gallery';
 
 const GalleryPage = () => {
   return (

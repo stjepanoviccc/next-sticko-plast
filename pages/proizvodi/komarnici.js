@@ -1,5 +1,5 @@
-import ProductsHeader from "../../app/components/products/ProductsHeader";
-import MosquitoNets from "../../app/components/products/mosquito-nets/MosquitoNets";
+import ProductsHeader from "../../app/components/lang-sr/products/ProductsHeader";
+import MosquitoNets from "../../app/components/lang-sr/products/mosquito-nets/MosquitoNets";
 import Head from "next/head";
 
 const KomarniciPage = () => {

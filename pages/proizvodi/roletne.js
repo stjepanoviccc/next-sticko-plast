@@ -1,5 +1,5 @@
-import ProductsHeader from "../../app/components/products/ProductsHeader";
-import Blinds from "@/app/components/products/blinds/Blinds";
+import ProductsHeader from "../../app/components/lang-sr/products/ProductsHeader";
+import Blinds from "../../app/components/lang-sr/products/blinds/Blinds";
 import Head from "next/head";
 
 const RoletnePage = () => {

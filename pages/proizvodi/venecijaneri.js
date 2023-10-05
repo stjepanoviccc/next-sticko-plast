@@ -1,5 +1,5 @@
-import ProductsHeader from "../../app/components/products/ProductsHeader";
-import Venetians from "../../app/components/products/venetians/Venetians";
+import ProductsHeader from "../../app/components/lang-sr/products/ProductsHeader";
+import Venetians from "../../app/components/lang-sr/products/venetians/Venetians";
 import Head from "next/head";
 
 const VenecijaneriPage = () => {

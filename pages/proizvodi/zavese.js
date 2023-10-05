@@ -1,5 +1,5 @@
-import ProductsHeader from "../../app/components/products/ProductsHeader";
-import Curtains from "../../app/components/products/curtains/Curtains";
+import ProductsHeader from "../../app/components/lang-sr/products/ProductsHeader";
+import Curtains from "../../app/components/lang-sr/products/curtains/Curtains";
 import Head from "next/head";
 
 const ZavesePage = () => {

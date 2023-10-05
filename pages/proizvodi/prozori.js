@@ -1,5 +1,5 @@
-import ProductsHeader from "../../app/components/products/ProductsHeader";
-import Windows from "../../app/components/products/windows/Windows";
+import ProductsHeader from "../../app/components/lang-sr/products/ProductsHeader";
+import Windows from "../../app/components/lang-sr/products/windows/Windows";
 import Head from "next/head";
 
 const ProzoriPage = () => {

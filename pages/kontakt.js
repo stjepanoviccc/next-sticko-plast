@@ -1,8 +1,8 @@
 import Head from "next/head";
-import ContactHeader from "../app/components/contact/ContactHeader";
-import Info from "../app/components/contact/Info";
-import Questions from '../app/components/home/questions/Questions';
-import Location from "../app/components/contact/Location";
+import ContactHeader from "../app/components/lang-sr/contact/ContactHeader";
+import Info from "../app/components/lang-sr/contact/Info";
+import Questions from '../app/components/lang-sr/home/questions/Questions';
+import Location from "../app/components/lang-sr/contact/Location";
 
 const ContactPage = () => {
   return (

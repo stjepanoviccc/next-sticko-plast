@@ -1,5 +1,5 @@
-import ProductsHeader from "../../app/components/products/ProductsHeader";
-import Fences from "../../app/components/products/fences/Fences";
+import ProductsHeader from "../../app/components/lang-sr/products/ProductsHeader";
+import Fences from "../../app/components/lang-sr/products/fences/Fences";
 import Head from "next/head";
 
 const OgradePage = () => {

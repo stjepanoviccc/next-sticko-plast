@@ -1,0 +1,22 @@
+{
+    "curtains1": {
+        "src": "../../../../assets/products/curtains/zebra-curtains1.jpg",
+        "category": "Zebra",
+        "alt": "zebra-curtains1"
+    },
+    "curtains2": {
+        "src": "../../../../assets/products/curtains/zebra-curtains2.jpg",
+        "category": "Zebra",
+        "alt": "zebra-curtains2"
+    },
+    "curtains3": {
+        "src": "../../../../assets/products/curtains/zebra-curtains3.jpg",
+        "category": "Zebra",
+        "alt": "zebra-curtains3"
+    },
+    "curtains4": {
+        "src": "../../../../assets/products/curtains/zebra-curtains4.jpg",
+        "category": "Zebra",
+        "alt": "zebra-curtains4"
+    }
+}

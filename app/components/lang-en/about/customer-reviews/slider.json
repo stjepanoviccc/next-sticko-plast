@@ -1,0 +1,38 @@
+{
+    "person1": {
+        "src": "../../../assets/about/reviews/person1.jpg",
+        "alt": "person1",
+        "name": "Svetozar Stojkov",
+        "text": "All praise for Šticko Plast. I ordered zebra curtains from them and they arrived in two days. Speed ​​and quality of service at the level. All the best."
+    },
+    "person2": {
+        "src": "../../../assets/about/reviews/person2.jpg",
+        "alt": "person2",
+        "name": "Đorđe Krgović",
+        "text": "I am very satisfied with the service I received for a very affordable price. When I need something related to carpentry again, it will be from Šticko Plast."
+    },
+    "person3": {
+        "src": "../../../assets/about/reviews/person3.jpg",
+        "alt": "person3",
+        "name": "Nikola Marković",
+        "text": "Professional team! They furnished my office and after that cleaned everything thoroughly and there was no damage. Kudos to the guys go ahead."
+    },
+    "person4": {
+        "src": "../../../assets/about/reviews/person4.jpg",
+        "alt": "person4",
+        "name": "Daliborka Pešić",
+        "text": "I am very satisfied with the service, the ordered door arrived in a couple of days, identical to the one in the picture. Very nice guys, service for ten!"
+    },
+    "person5": {
+        "src": "../../../assets/about/reviews/person5.jpg",
+        "alt": "person5",
+        "name": "Mirjana Živadinović",
+        "text": "Top service. I am looking forward to cooperating with Šticko Plast again, a warm recommendation from my side, the price-quality ratio is guaranteed."
+    },
+    "person6": {
+        "src": "../../../assets/about/reviews/person6.jpg",
+        "alt": "person6",
+        "name": "Una Vasić",
+        "text": "I was looking for quality PVC doors and I received a recommendation to call Šticko Plast. It's an understatement to say that the service is top notch! Kudos to the team."
+    }
+}
