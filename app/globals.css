@@ -43,7 +43,7 @@ body {
     transition: 300ms;
 }
 
-/* hero slider */
+/* slider */
 .swiper-button-prev,
 .swiper-button-next {
     color: white !important;

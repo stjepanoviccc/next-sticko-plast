@@ -1,26 +1,17 @@
 {
     "img1": {
-        "src": "../../../assets/products/our-partners/roloplast_logo_new.svg",
-        "alt": "slider-work-img"
+        "src": "../../../assets/our-partners/braca-maric.png",
+        "alt": "braca-maric-logo",
+        "link": "https://vratamaric.rs"
     },
     "img2": {
-        "src": "../../../assets/products/our-partners/roloplast_logo_new.svg",
-        "alt": "slider-work-img"
+        "src": "../../../assets/our-partners/pro-ves-logo.png",
+        "alt": "pro-ves-logo",
+        "link": "/"
     },
     "img3": {
-        "src": "../../../assets/products/our-partners/roloplast_logo_new.svg",
-        "alt": "slider-work-img"
-    },
-    "img4": {
-        "src": "../../../assets/products/our-partners/roloplast_logo_new.svg",
-        "alt": "slider-work-img"
-    },
-    "img5": {
-        "src": "../../../assets/products/our-partners/roloplast_logo_new.svg",
-        "alt": "slider-work-img"
-    },
-    "img6": {
-        "src": "../../../assets/products/our-partners/roloplast_logo_new.svg",
-        "alt": "slider-work-img"
+        "src": "../../../assets/our-partners/vesplast-logo.png",
+        "alt": "vesplast-logo",
+        "link": "https://www.vesplast.rs"
     }
 }

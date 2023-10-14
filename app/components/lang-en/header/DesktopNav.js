@@ -46,7 +46,7 @@ const NavMenu = () => {
             <TopBar />
             <nav aria-label="Navigation" >
                 <Wrap className="flex items-center justify-between py-5">
-                    <Link href="/">
+                    <Link href="/en/home">
                         <img className="w-64 cursor-pointer" src="../../assets/header/logo-colored.png" alt="logo"></img>
                     </Link>
                     <ul className="flex gap-x-12">

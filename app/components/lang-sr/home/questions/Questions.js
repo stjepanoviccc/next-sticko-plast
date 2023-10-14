@@ -4,6 +4,7 @@ import Accordion from "./Accordion";
 import ButtonHolder from '../../../ui/ButtonHolder';
 import AppearOnScroll from "../../../ui/animations/AppearOnScroll";
 import useCheckDevice from "../../../../custom-hooks/CheckDevice";
+import questions from "./questions.json";
 
 const Questions = ({ page }) => {
   const windowWidth = useCheckDevice();
@@ -18,14 +19,14 @@ const Questions = ({ page }) => {
     </div>
     <div className="flex flex-col justify-between gap-0 py-0 lg:py-4 lg:flex-row lg:gap-12">
       <div className="flex flex-col items-center w-full">
-        <Accordion title="Pitanje broj 1 glasi" text="U ovaj panel ide odgovor za pitanje U ovaj panel ide odgovor za pitanje U ovaj panel ide odgovor za pitanje U ovaj panel ide odgovor za pitanje U ovaj panel ide odgovor za pitanje" />
-        <Accordion title="Pitanje broj 2 glasi" text="U ovaj panel ide odgovor za pitanje" />
-        <Accordion title="Pitanje broj 3 glasi" text="U ovaj panel ide odgovor za pitanje" />
+        <Accordion title={questions.acc1.title} text={questions.acc1.text} />
+        <Accordion title={questions.acc2.title} text={questions.acc2.text} />
+        <Accordion title={questions.acc3.title} text={questions.acc3.text} />
       </div>
       <div className="flex flex-col items-center w-full">
-        <Accordion title="Pitanje broj 4 glasi" text="U ovaj panel ide odgovor za pitanje" />
-        <Accordion title="Pitanje broj 5 glasi" text="U ovaj panel ide odgovor za pitanje" />
-        <Accordion title="Pitanje broj 6 glasi" text="U ovaj panel ide odgovor za pitanje" />
+        <Accordion title={questions.acc4.title} text={questions.acc4.text} />
+        <Accordion title={questions.acc5.title} text={questions.acc5.text} />
+        <Accordion title={questions.acc6.title} text={questions.acc6.text} />
       </div>
     </div>
     {page !== "contact" && (

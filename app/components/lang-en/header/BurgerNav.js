@@ -40,7 +40,7 @@ const HamburgerMenu = () => {
   return (
     <>
       <Wrap className="flex items-center justify-between bg-white py-6">
-        <Link className="w-64 mb-1.5" href="/">
+        <Link className="w-64 mb-1.5" href="/en/home">
           <img src="../../assets/header/logo-colored.png" alt="logo"></img>
         </Link>
         <button type="button" onClick={toggleMenu}>

@@ -1,12 +1,9 @@
 import Wrap from "../../../ui/Wrap"
 import Link from "next/link";
-import { SwiperSlide } from "swiper/react";
-import AutoplaySlider from "../../../ui/AutoplaySlider";
 import images from "./slider.json";
 import AppearOnScroll from "@/app/components/ui/animations/AppearOnScroll";
 
 const OurPartners = () => {
-    const imgHeight = "100px";
 
     return (
         <section id="our-partners" className="bg-light2">
@@ -15,15 +12,14 @@ const OurPartners = () => {
                     <div className="flex justify-center items-center">
                         <h2 className="pb-2 font-bold text-2xl border-b-2 border-primary sm:text-4xl">Our business partners</h2>
                     </div>
-                    <AutoplaySlider swiperClasses="mySwiper" sliderPadding="0">
+                    <div className="flex flex-col md:flex-row justify-around items-center gap-y-12 pt-8 lg:pt-12">
                         {Object.keys(images).map((imgKey, index) => (
-                            <SwiperSlide key={index} className="rounded-tl-xl rounded-tr-xl pl-10 pr-10 py-8 lg:py-12">
-                                <Link href="/kontakt">
-                                    <img loading="eager" style={{ minHeight: imgHeight, maxWidth: "300px", margin: '0px auto' }} className="w-full rounded-xl" src={images[imgKey].src} alt={images[imgKey].alt}></img>
-                                </Link>
-                            </SwiperSlide>
+                            <Link key={index} href={images[imgKey].link} target="_blank" className="w-64 transition duration-300 hover:scale-110">
+                                <img loading="eager" style={{ minHeight: '100px', maxHeight: '130px', margin: '0px auto' }} className="w-full rounded-xl"
+                                    src={images[imgKey].src} alt={images[imgKey].alt}></img>
+                            </Link>
                         ))}
-                    </AutoplaySlider>
+                    </div>
                 </AppearOnScroll>
             </Wrap>
         </section>

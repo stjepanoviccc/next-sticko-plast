@@ -25,7 +25,7 @@ const TopBar = () => {
                     </li>
                     <li className="flex gap-x-2 justify-between items-center">
                         <FontAwesomeIcon icon={faClock} />
-                        <p className="text-sm"> Monday-Saturday | 07:00 - 16:00
+                        <p className="text-sm"> Monday - Saturday | 07:00 - 16:00
                         </p>
                     </li>
                 </ul>

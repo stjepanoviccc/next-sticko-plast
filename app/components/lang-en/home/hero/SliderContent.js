@@ -25,7 +25,7 @@ const SliderContent = ({ src, alt }) => {
             <TextAppear showWrap={showWrap}>
                 <Wrap className="absolute inset-0 flex flex-col gap-2 justify-center items-center text-center">
                     <h2 className="text-white text-2xl text-center font-bold sm:text-4xl">Šticko Plast</h2>
-                    <h1 className="text-white text-4xl text-center font-bold sm:text-6xl">Sale and installation of PVC and aluminum joinery</h1>
+                    <h1 className="text-white text-4xl text-center font-bold sm:text-6xl">Sales and installation of PVC and Aluminum joinery</h1>
                     <div className="flex gap-5">
                         <ButtonHolder className="pt-12">
                             <button type="button">
