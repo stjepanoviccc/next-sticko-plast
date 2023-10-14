@@ -1,17 +1,20 @@
 {
     "img1": {
-        "src": "../../../assets/our-partners/braca-maric.png",
-        "alt": "braca-maric-logo",
-        "link": "https://vratamaric.rs"
+        "src": "../../../assets/our-partners/vrata-maric-logo.png",
+        "alt": "vrata-maric-logo",
+        "link": "https://vratamaric.rs",
+        "target": "_blank"
     },
     "img2": {
         "src": "../../../assets/our-partners/pro-ves-logo.png",
         "alt": "pro-ves-logo",
-        "link": "/"
+        "link": "#",
+        "target": "_self"
     },
     "img3": {
         "src": "../../../assets/our-partners/vesplast-logo.png",
         "alt": "vesplast-logo",
-        "link": "https://www.vesplast.rs"
+        "link": "https://www.vesplast.rs",
+        "target": "_blank"
     }
 }

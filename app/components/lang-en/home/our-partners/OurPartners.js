@@ -12,9 +12,9 @@ const OurPartners = () => {
                     <div className="flex justify-center items-center">
                         <h2 className="pb-2 font-bold text-2xl border-b-2 border-primary sm:text-4xl">Our business partners</h2>
                     </div>
-                    <div className="flex flex-col md:flex-row justify-around items-center gap-y-12 pt-8 lg:pt-12">
+                    <div className="flex flex-col md:flex-row justify-around items-center gap-x-8 gap-y-12 pt-8 lg:pt-12">
                         {Object.keys(images).map((imgKey, index) => (
-                            <Link key={index} href={images[imgKey].link} target="_blank" className="w-64 transition duration-300 hover:scale-110">
+                            <Link key={index} href={images[imgKey].link} target={images[imgKey].target} className="w-64 transition duration-300 hover:scale-110">
                                 <img loading="eager" style={{ minHeight: '100px', maxHeight: '130px', margin: '0px auto' }} className="w-full rounded-xl"
                                     src={images[imgKey].src} alt={images[imgKey].alt}></img>
                             </Link>
