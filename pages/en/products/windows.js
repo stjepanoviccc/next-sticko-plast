@@ -9,8 +9,7 @@ const ProzoriPage = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Windows - Šticko Plast - Sales and installation of PVC and ALU carpentry. Our service includes the installation of windows, doors, venetian blinds, curtains and everything else that is needed for your home or business premises.</title>
             </Head>
-            <ProductsHeader sectionId="windows-header" title="Products - Windows" subtitle="On this page you can find all available products from our range
-            which fall under the category - windows." />
+            <ProductsHeader sectionId="windows-header" title="Products - Windows" subtitle="Our windows are characterized by high energy efficiency, providing warmth and comfort to your home while reducing your energy bill." />
             <Windows />
         </>
     )

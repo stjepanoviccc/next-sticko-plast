@@ -3,6 +3,7 @@ import srHeader from './components/lang-sr/header/Header';
 import srFooter from './components/lang-sr/footer/Footer';
 import enHeader from './components/lang-en/header/Header';
 import enFooter from './components/lang-en/footer/Footer';
+import BackToTop from './components/ui/BackToTop';
 
 const RootLayout = ({ children }) => {
   const router = useRouter();
@@ -20,6 +21,7 @@ const RootLayout = ({ children }) => {
         {children}
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 }

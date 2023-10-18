@@ -35,7 +35,7 @@ const srFooter = () => {
               </div>
               <div className="flex flex-col gap-x-4 gap-y-1 items-center lg:flex-row lg:gap-y-0">
                 <FontAwesomeIcon className="w-4" icon={faClock} />
-                <p>Ponedeljak - Subota | 07:00 - 16:00</p>
+                <p>Ponedeljak - Subota | 08:00 - 16:00</p>
               </div>
             </div>
           </div>

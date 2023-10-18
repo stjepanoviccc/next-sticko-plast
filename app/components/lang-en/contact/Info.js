@@ -40,7 +40,7 @@ const Info = () => {
                     <Card className="items-center gap-y-4 py-8 lg:py-14 rounded-2xl border-2 hover:border-primary transition duration-300">
                         <FontAwesomeIcon className="text-3xl sm:text-5xl" icon={faClock} />
                         <h4 className="text-lg sm:text-xl pb-2 border-b-2 border-primary">Work hour</h4>
-                        <p>Mon - Sat / 07:00 - 16:00</p>
+                        <p>Mon - Sat / 08:00 - 16:00</p>
                     </Card>
                 </div>
             </Wrap>

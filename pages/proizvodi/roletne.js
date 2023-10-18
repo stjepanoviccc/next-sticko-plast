@@ -9,8 +9,7 @@ const RoletnePage = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Roletne - Šticko Plast - Prodaja i montaža PVC i Alu stolarije. Naša usluga uključuje montažu prozora, vrata, venecijanera, zavesa i svega drugog što je neophodno za Vaš dom ili Vaš poslovni prostor.</title>
             </Head>
-            <ProductsHeader sectionId="blinds-header" title="Proizvodi - Roletne" subtitle="Na ovoj stranici možete pronaći sve dostupne proizvode iz našeg asortimana
-            koji spadaju pod kategoriju - roletne." />
+            <ProductsHeader sectionId="blinds-header" title="Proizvodi - Roletne" subtitle="Naše roletne pružaju idealno rešenje za kontrolu svetla i privatnosti u Vašem domu, čineći ga udobnijim i sigurnijim." />
             <Blinds />
         </>
     )

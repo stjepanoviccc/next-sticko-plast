@@ -130,7 +130,7 @@ const HamburgerMenu = () => {
                 </div>
                 <div className="flex items-center gap-x-4 text-white">
                   <FontAwesomeIcon className="w-4" icon={faClock} />
-                  <p className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7">Ponedeljak - Subota | 07:00 - 16:00</p>
+                  <p className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7">Ponedeljak - Subota | 08:00 - 16:00</p>
                 </div>
               </div>
               <div className="py-6 flex justify-center items-center gap-x-12 text-white">
