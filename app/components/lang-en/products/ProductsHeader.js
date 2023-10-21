@@ -1,6 +1,6 @@
 import Wrap from '../../ui/Wrap';
 
-const ProductsHeader = ({sectionId, title, subtitle}) => {
+const ProductsHeader = ({ sectionId, title, subtitle }) => {
 
     return (
         <section id={sectionId} className="bg-cover bg-bottom lg:bg-fixed" style={{ backgroundImage: `url('../../../assets/header/products-min.jpg')` }}>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Wrap from '../../ui/Wrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faClose, faBars, faClock, faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebook, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const HamburgerMenu = () => {
   const [menuIsActive, setIsMenuActive] = useState(false);
@@ -79,8 +79,8 @@ const HamburgerMenu = () => {
                     <Link onClick={toggleMenu} href="/proizvodi/roletne" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white" aria-label="Roletne">Roletne</Link>
                     <Link onClick={toggleMenu} href="/proizvodi/zavese" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white" aria-label="Zavese">Zavese</Link>
                     <Link onClick={toggleMenu} href="/proizvodi/komarnici" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white" aria-label="Komarnici">Komarnici</Link>
-                    <Link onClick={toggleMenu} href="/proizvodi/venecijaneri" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white" aria-label="Venecijaneri">Venecijaneri</Link>
-                    <Link onClick={toggleMenu} href="/proizvodi/ograde" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white" aria-label="Ograde">Ograde</Link>
+                    <Link onClick={toggleMenu} href="/proizvodi/ostalo" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white" aria-label="Ostalo">Ostalo</Link>
+                    
                   </div>
                 </div>
 
@@ -94,7 +94,7 @@ const HamburgerMenu = () => {
                     'max-h-0 transition-max-h duration-100 ease-out opacity-0 pointer-events-none'}`}>
                     <Link onClick={toggleMenu} href="/ispitivanja-ift-rosenheim.pdf" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Ispitivanja Ift Rosenheim</Link>
                     <Link onClick={toggleMenu} href="/ispitivanja-ims-beograd.pdf" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Ispitivanja Ims Beograd</Link>
-                    <Link onClick={toggleMenu} href="/" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Dokument 3</Link>
+                    <Link onClick={toggleMenu} href="/katalog-ukrasnih-panela-i-vrata-vesplast.pdf" className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-white">Katalog</Link>
                   </div>
                 </div>
 
@@ -135,8 +135,8 @@ const HamburgerMenu = () => {
               </div>
               <div className="py-6 flex justify-center items-center gap-x-12 text-white">
                 <Link onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon size="xl" icon={faFacebook} /></Link>
-                <Link onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon size="xl" icon={faInstagram} /></Link>
-                <Link onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon size="xl" icon={faTiktok} /></Link>
+                <Link onClick={toggleMenu} target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon size="xl" icon={faInstagram} /></Link>
+                <Link onClick={toggleMenu} target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon size="xl" icon={faYoutube} /></Link>
               </div>
             </div>
           </div>

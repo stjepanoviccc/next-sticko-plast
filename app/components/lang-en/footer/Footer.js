@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faPhone, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram, faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebook, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import Bar from '../../ui/Bar';
 import Wrap from '../../ui/Wrap';
 
@@ -55,7 +55,7 @@ const enFooter = () => {
             <ul className="flex flex-col gap-y-2">
               <li><Link className="hover:underline" href="/ispitivanja-ift-rosenheim.pdf">Evidence Ift Rosenheim</Link></li>
               <li><Link className="hover:underline" href="/ispitivanja-ims-beograd.pdf">Evidence Ims Beograd</Link></li>
-              <li><Link className="hover:underline" href="/">Document</Link></li>
+              <li><Link className="hover:underline" href="/katalog-ukrasnih-panela-i-vrata-vesplast.pdf">Catalog</Link></li>
               <li><p>PIB: 111339405</p></li>
             </ul>
           </div>
@@ -68,8 +68,7 @@ const enFooter = () => {
               <li><Link className="hover:underline" href="/en/products/blinds">Blinds</Link></li>
               <li><Link className="hover:underline" href="/en/products/curtains">Curtains</Link></li>
               <li><Link className="hover:underline" href="/en/products/mosquito-nets">Mosquito Nets</Link></li>
-              <li><Link className="hover:underline" href="/en/products/venetians">Venetians</Link></li>
-              <li><Link className="hover:underline" href="/en/products/fences">Fences</Link></li>
+              <li><Link className="hover:underline" href="/en/products/other">Other</Link></li>
             </ul>
           </div>
 
@@ -81,8 +80,8 @@ const enFooter = () => {
           <p>All rights reserved &copy; 2023 Šticko Plast. Created by <Link className="hover:underline" href="/">Andrej Stjepanović</Link></p>
           <ul className="flex gap-x-4 justify-center items-center lg:justify-between">
             <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link></li>
-            <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faInstagram} /></Link></li>
-            <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faTiktok} /></Link></li>
+            <li><Link target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon icon={faInstagram} /></Link></li>
+            <li><Link target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon icon={faYoutube} /></Link></li>
           </ul>
         </Wrap>
       </Bar>

@@ -29,7 +29,7 @@ const Blinds = () => {
                     <div className="grid grid-cols-1 gap-x-4 gap-y-4 pt-8 sm:grid-cols-2 lg:gap-x-8 lg:grid-cols-3 lg:pt-12 text-secondary">
                         {activeCategory === "all" && (
                             Object.keys(blinds).length === 0 ? (
-                                <p>There are no products to display.</p>
+                                <p>There are no images available for the selected product.</p>
                             ) : (
                                 Object.keys(blinds).map((blindsKey) => (
                                     <ProductsItem key={blindsKey} src={blinds[blindsKey].src} category={blinds[blindsKey].category} />
@@ -39,7 +39,7 @@ const Blinds = () => {
                         {(activeCategory === "PVC" || activeCategory === "Alu") && (
                             Object.keys(blinds)
                                 .filter((blindsKey) => blinds[blindsKey].category === activeCategory).length === 0 ? (
-                                <p>There are no products to display.</p>
+                                <p>There are no images available for the selected product.</p>
                             ) : (
                                 Object.keys(blinds)
                                     .filter((blindsKey) => blinds[blindsKey].category === activeCategory)

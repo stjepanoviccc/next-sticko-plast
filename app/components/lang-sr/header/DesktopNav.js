@@ -87,11 +87,7 @@ const NavMenu = () => {
                                 </li>
                                 <li>
                                     <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white"
-                                        onClick={handleProductDropdownLeave} href="/proizvodi/venecijaneri" aria-label="Venecijaneri">Venecijaneri</Link>
-                                </li>
-                                <li>
-                                    <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white"
-                                        onClick={handleProductDropdownLeave} href="/proizvodi/ograde" aria-label="Ograde">Ograde</Link>
+                                        onClick={handleProductDropdownLeave} href="/proizvodi/ostalo" aria-label="Ostalo">Ostalo</Link>
                                 </li>
                             </ul>
                         </li>
@@ -112,7 +108,7 @@ const NavMenu = () => {
                                 </li>
                                 <li>
                                     <Link className="block py-3 px-4 font-semibold transition duration-200 hover:bg-primary hover:text-white"
-                                        onClick={handleDocumentationDropdownLeave} href="/" aria-label="Dokument">Dokument 3</Link>
+                                        onClick={handleDocumentationDropdownLeave} href="/katalog-ukrasnih-panela-i-vrata-vesplast.pdf" aria-label="Dokument">Katalog</Link>
                                 </li>
                             </ul>
                         </li>

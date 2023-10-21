@@ -8,8 +8,8 @@ class MyDocument extends Document {
                 <Head>
                     <meta charSet="UTF-8" />
                     <meta property="og:site_name" content="Šticko Plast"></meta>
-                    <meta property="og:title" content="Šticko Plast - Montiranje PVC i Alu Stolarije" />
-                    <meta property="og:description" content="Šticko Plast - Montiranje PVC i Alu Stolarije" />
+                    <meta property="og:title" content="Šticko Plast - Prodaja i montaža PVC i Alu Stolarije" />
+                    <meta property="og:description" content="Šticko Plast - Prodaja i montaža PVC i Alu Stolarije" />
                     <meta property="og:image" content="../assets/hero/slider-2-min.jpg" />
                     <meta property="og:type" content="website"></meta>
                     <link rel="icon" href="/stickoIcon.png" />

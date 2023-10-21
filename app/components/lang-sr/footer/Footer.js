@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faPhone, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram, faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebook, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import Bar from "../../ui/Bar";
 import Wrap from "../../ui/Wrap";
 
@@ -55,7 +55,7 @@ const srFooter = () => {
             <ul className="flex flex-col gap-y-2">
               <li><Link className="hover:underline" href="/ispitivanja-ift-rosenheim.pdf">Ispitivanja Ift Rosenheim</Link></li>
               <li><Link className="hover:underline" href="/ispitivanja-ims-beograd.pdf">Ispitivanja Ims Beograd</Link></li>
-              <li><Link className="hover:underline" href="/">Dokument</Link></li>
+              <li><Link className="hover:underline" href="/katalog-ukrasnih-panela-i-vrata-vesplast.pdf">Katalog</Link></li>
               <li><p>PIB: 111339405</p></li>
             </ul>
           </div>
@@ -68,8 +68,7 @@ const srFooter = () => {
               <li><Link className="hover:underline" href="/proizvodi/roletne">Roletne</Link></li>
               <li><Link className="hover:underline" href="/proizvodi/zavese">Zavese</Link></li>
               <li><Link className="hover:underline" href="/proizvodi/komarnici">Komarnici</Link></li>
-              <li><Link className="hover:underline" href="/proizvodi/venecijaneri">Venecijaneri</Link></li>
-              <li><Link className="hover:underline" href="/proizvodi/ograde">Ograde</Link></li>
+              <li><Link className="hover:underline" href="/proizvodi/ostalo">Ostalo</Link></li>
             </ul>
           </div>
 
@@ -81,8 +80,8 @@ const srFooter = () => {
           <p>Sva prava zadržava &copy; 2023 Šticko Plast. Kreirao <Link className="hover:underline" href="/">Andrej Stjepanović</Link></p>
           <ul className="flex gap-x-4 justify-center items-center lg:justify-between">
             <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link></li>
-            <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faInstagram} /></Link></li>
-            <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faTiktok} /></Link></li>
+            <li><Link target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon icon={faInstagram} /></Link></li>
+            <li><Link target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon icon={faYoutube} /></Link></li>
           </ul>
         </Wrap>
       </Bar>
