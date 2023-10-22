@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -16,10 +16,6 @@ const Gallery = () => {
     const toggleSlider = () => {
         setSliderIsOpened(prev => !prev);
     }
-
-    useEffect(() => {
-        // for slide count ( fixed slider )
-    }, [selectedImageIndex])
 
     const handleNext = () => {
         if (sliderIsOpened && selectedImageIndex < Object.keys(images).length - 1) {
@@ -67,9 +63,8 @@ const Gallery = () => {
                                 </SwiperSlide >
                             ))}
                             <div className="text-center text-white">
-                                <button className="swiper-button-prev pb-8" onClick={handlePrev}></button>
-                                <p className="pt-2">{selectedImageIndex + 1} od {Object.keys(images).length}</p>
-                                <button className="swiper-button-next pb-8" onClick={handleNext}></button>
+                                <button className="swiper-button-prev" onClick={handlePrev}></button>
+                                <button className="swiper-button-next" onClick={handleNext}></button>
                             </div>
                         </Swiper>
                     </div>

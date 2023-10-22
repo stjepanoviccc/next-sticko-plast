@@ -1,7 +1,17 @@
 {
     "curtains1": {
-        "src": "../../../../assets/products/curtains/zebra-curtain.jpg",
+        "src": "../../../../assets/products/curtains/zebra-curtain.png",
         "category": "Zebra",
         "alt": "zebra-curtains"
+    },
+    "curtains2": {
+        "src": "../../../../assets/products/curtains/banded-curtain.png",
+        "category": "Banded",
+        "alt": "banded-curtains"
+    },
+    "curtains3": {
+        "src": "../../../../assets/products/curtains/roll-curtain.png",
+        "category": "Roll",
+        "alt": "roll-curtains"
     }
 }

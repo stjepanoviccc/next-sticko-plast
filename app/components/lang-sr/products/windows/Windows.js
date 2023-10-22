@@ -23,7 +23,6 @@ const Windows = () => {
                         <select onChange={handleCategoryChange} value={activeCategory}>
                             <option value="all">Svi proizvodi</option>
                             <option value="PVC">PVC</option>
-                            <option value="Alu">Alu</option>
                             <option value="Jednokrilni">Jednokrilni</option>
                             <option value="Dvokrilni">Dvokrilni</option>
                             <option value="Trokrilni">Trokrilni</option>
@@ -40,7 +39,7 @@ const Windows = () => {
                                 ))
                             )
                         )}
-                        {(activeCategory === "PVC" || activeCategory === "Alu" || activeCategory === "Jednokrilni" || activeCategory === "Dvokrilni"
+                        {(activeCategory === "PVC" || activeCategory === "Jednokrilni" || activeCategory === "Dvokrilni"
                         || activeCategory === "Trokrilni" || activeCategory === "Četverokrilni") && (
                             Object.keys(windows)
                                 .filter((windowsKey) => windows[windowsKey].category === activeCategory).length === 0 ? (

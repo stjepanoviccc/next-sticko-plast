@@ -1,12 +1,27 @@
 {
     "window1": {
-        "src": "../../../../assets/products/doors/pvc-door1.jpg",
+        "src": "../../../../assets/products/windows/pvc-window.jpg",
         "category": "PVC",
-        "alt": "pvc-window1"
+        "alt": "pvc-prozor"
     },
     "window2": {
-        "src": "../../../../assets/products/doors/pvc-door2.jpg",
-        "category": "Alu",
-        "alt": "pvc-window2"
+        "src": "../../../../assets/products/windows/single-winged-window.jpg",
+        "category": "Jednokrilni",
+        "alt": "jednokrilni-prozor"
+    },
+    "window3": {
+        "src": "../../../../assets/products/windows/double-winged-window.jpg",
+        "category": "Dvokrilni",
+        "alt": "dvokrilni-prozor"
+    },
+    "window4": {
+        "src": "../../../../assets/products/windows/three-winged-window.jpg",
+        "category": "Trokrilni",
+        "alt": "trokrilni-prozor"
+    },
+    "window5": {
+        "src": "../../../../assets/products/windows/four-winged-window.jpg",
+        "category": "Četverokrilni",
+        "alt": "cetverokrilni-prozor"
     }
 }

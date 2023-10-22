@@ -1,12 +1,12 @@
 {
     "blinds1": {
-        "src": "../../../../assets/products/doors/pvc-door1.jpg",
+        "src": "../../../../assets/products/blinds/pvc-blinds.jpg",
         "category": "PVC",
-        "alt": "pvc-blinds1"
+        "alt": "pvc-roletne"
     },
     "blinds2": {
-        "src": "../../../../assets/products/doors/pvc-door1.jpg",
+        "src": "../../../../assets/products/blinds/alu-blinds.jpg",
         "category": "Alu",
-        "alt": "alu-blinds1"
+        "alt": "alu-roletne"
     }
 }

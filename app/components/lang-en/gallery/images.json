@@ -26,5 +26,57 @@
     "img7": {
         "src": "../../assets/works/work7-min.jpg",
         "alt": "work7-img"
+    },
+    "img8": {
+        "src": "../../assets/works/work8.jpg",
+        "alt": "work8-img"
+    },
+    "img9": {
+        "src": "../../assets/works/work9.jpg",
+        "alt": "work9-img"
+    },
+    "img10": {
+        "src": "../../assets/works/work10.jpg",
+        "alt": "work10-img"
+    },
+    "img11": {
+        "src": "../../assets/works/work11.jpg",
+        "alt": "work11-img"
+    },
+    "img12": {
+        "src": "../../assets/works/work12.jpg",
+        "alt": "work12-img"
+    },
+    "img13": {
+        "src": "../../assets/works/work13.jpg",
+        "alt": "work13-img"
+    },
+    "img14": {
+        "src": "../../assets/works/work14.jpg",
+        "alt": "work14-img"
+    },
+    "img15": {
+        "src": "../../assets/works/work15.jpg",
+        "alt": "work15-img"
+    },
+    "img16": {
+        "src": "../../assets/works/work16.jpg",
+        "alt": "work16-img"
+    },
+    "img17": {
+        "src": "../../assets/works/work17.jpg",
+        "alt": "work17-img"
+    },
+    "img18": {
+        "src": "../../assets/works/work18.jpg",
+        "alt": "work18-img"
+    },
+    "img19": {
+        "src": "../../assets/works/work19.jpg",
+        "alt": "work19-img"
+    },
+    "img20": {
+        "src": "../../assets/works/work20.jpg",
+        "alt": "work20-img"
     }
 }

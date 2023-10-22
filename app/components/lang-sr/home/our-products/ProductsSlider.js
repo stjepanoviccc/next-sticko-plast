@@ -19,7 +19,7 @@ const ProductsSlider = () => {
         <Swiper className="mySwiper" style={{ paddingBottom: '2.5rem' }} effect={'coverflow'} grabCursor={true} centeredSlides={true} initialSlide={3} pagination={{ clickable: true, draggable: true }} modules={[EffectCoverflow, Pagination]}
             slidesPerView={sliderPerViewValue} coverflowEffect={{ rotate: rotateValue, stretch: 0, depth: 100, modifier: 1, slideShadows: true, }}>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/curtains/zebra-curtain.jpg" alt="the-curtains-img" title="Zavese" href="/proizvodi/zavese" />
+                <SliderContent src="../../../assets/products/curtains/zebra-curtain.png" alt="the-curtains-img" title="Zavese" href="/proizvodi/zavese" />
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
                 <SliderContent src="../../../assets/products/mosquitoNets/pvc-mosquito-net.jpg" alt="mosquitoNets-img" title="Komarnici" href="/proizvodi/komarnici" />

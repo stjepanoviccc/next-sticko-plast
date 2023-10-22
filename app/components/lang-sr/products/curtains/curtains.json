@@ -1,22 +1,17 @@
 {
     "curtains1": {
-        "src": "../../../../assets/products/curtains/zebra-curtains1.jpg",
+        "src": "../../../../assets/products/curtains/zebra-curtain.png",
         "category": "Zebraste",
-        "alt": "zebra-curtains1"
+        "alt": "zebraste-zavese"
     },
     "curtains2": {
-        "src": "../../../../assets/products/curtains/zebra-curtains2.jpg",
-        "category": "Zebraste",
-        "alt": "zebra-curtains2"
+        "src": "../../../../assets/products/curtains/banded-curtain.png",
+        "category": "Trakaste",
+        "alt": "trakaste-zavese"
     },
     "curtains3": {
-        "src": "../../../../assets/products/curtains/zebra-curtains3.jpg",
-        "category": "Zebraste",
-        "alt": "zebra-curtains3"
-    },
-    "curtains4": {
-        "src": "../../../../assets/products/curtains/zebra-curtains4.jpg",
-        "category": "Zebraste",
-        "alt": "zebra-curtains4"
+        "src": "../../../../assets/products/curtains/roll-curtain.png",
+        "category": "Rolo",
+        "alt": "rolo-zavese"
     }
 }
