@@ -19,25 +19,22 @@ const ProductsSlider = () => {
         <Swiper className="mySwiper" style={{ paddingBottom: '2.5rem' }} effect={'coverflow'} grabCursor={true} centeredSlides={true} initialSlide={3} pagination={{ clickable: true, draggable: true }} modules={[EffectCoverflow, Pagination]}
             slidesPerView={sliderPerViewValue} coverflowEffect={{ rotate: rotateValue, stretch: 0, depth: 100, modifier: 1, slideShadows: true, }}>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/curtains/zebra-curtains4.jpg" alt="the-curtains-img" title="Zavese" href="/proizvodi/zavese" />
+                <SliderContent src="../../../assets/products/curtains/zebra-curtain.jpg" alt="the-curtains-img" title="Zavese" href="/proizvodi/zavese" />
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/venetians-min.jpg" alt="mosquitoNets-img" title="Komarnici" href="/proizvodi/komarnici" />
+                <SliderContent src="../../../assets/products/mosquitoNets/pvc-mosquito-net.jpg" alt="mosquitoNets-img" title="Komarnici" href="/proizvodi/komarnici" />
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/window-min.jpg" alt="windows-img" title="Prozori" href="/proizvodi/prozori" />
+                <SliderContent src="../../../assets/products/windows/pvc-window.jpg" alt="windows-img" title="Prozori" href="/proizvodi/prozori" />
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/door-min.jpg" alt="doors-img" title="Vrata" href="/proizvodi/vrata" />
+                <SliderContent src="../../../assets/products/doors/double-winged-door.jpg" alt="doors-img" title="Vrata" href="/proizvodi/vrata" />
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/blinds-min.jpg" alt="blinds-img" title="Roletne" href="/proizvodi/roletne" />
+                <SliderContent src="../../../assets/products/blinds/pvc-blinds.jpg" alt="blinds-img" title="Roletne" href="/proizvodi/roletne" />
             </SwiperSlide>
             <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/venetians/venetians1.jpg" alt="venetians-img" title="Venecijaneri" href="/proizvodi/venecijaneri" />
-            </SwiperSlide>
-            <SwiperSlide className="rounded-tl-xl rounded-tr-xl">
-                <SliderContent src="../../../assets/products/blinds-min.jpg" alt="fences-img" title="Ograde" href="/proizvodi/ograde" />
+                <SliderContent src="../../../assets/products/other/rollo-garage-door.jpg" alt="other-img" title="Ostalo" href="/proizvodi/ostalo" />
             </SwiperSlide>
         </Swiper>
     )

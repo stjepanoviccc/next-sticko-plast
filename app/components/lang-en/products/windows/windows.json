@@ -1,12 +1,27 @@
 {
     "window1": {
-        "src": "../../../../assets/products/doors/pvc-door1.jpg",
+        "src": "../../../../assets/products/windows/pvc-window.jpg",
         "category": "PVC",
-        "alt": "pvc-window1"
+        "alt": "pvc-window"
     },
     "window2": {
-        "src": "../../../../assets/products/doors/pvc-door2.jpg",
-        "category": "Alu",
-        "alt": "pvc-window2"
+        "src": "../../../../assets/products/windows/single-winged-window.jpg",
+        "category": "Single-Winged",
+        "alt": "single-winged-window"
+    },
+    "window3": {
+        "src": "../../../../assets/products/windows/double-winged-window.jpg",
+        "category": "Double-Winged",
+        "alt": "double-winged-window"
+    },
+    "window4": {
+        "src": "../../../../assets/products/windows/three-winged-window.jpg",
+        "category": "Three-Winged",
+        "alt": "three-winged-window"
+    },
+    "window5": {
+        "src": "../../../../assets/products/windows/four-winged-window.jpg",
+        "category": "Four-Winged",
+        "alt": "four-winged-window"
     }
 }

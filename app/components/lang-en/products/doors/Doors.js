@@ -29,7 +29,7 @@ const Doors = () => {
                             <option value="Sliding">Sliding</option>
                             <option value="Room">Room</option>
                             <option value="Single-Winged">Single-Winged</option>
-                            <option value="Two-Winged">Two-Winged</option>
+                            <option value="Double-Winged">Double-Winged</option>
                             <option value="Van-System">Van-System</option>
                         </select>
                     </div>
@@ -44,7 +44,7 @@ const Doors = () => {
                             )
                         )}
                         {(activeCategory === "PVC" || activeCategory === "Alu" || activeCategory === "Balcony" || activeCategory === "Entrance" || activeCategory === "Sliding"
-                            || activeCategory === "Room" || activeCategory === "Single-Winged" || activeCategory === "Two-Winged" || activeCategory === "Van-System") && (
+                            || activeCategory === "Room" || activeCategory === "Single-Winged" || activeCategory === "Double-Winged" || activeCategory === "Van-System") && (
                                 Object.keys(doors)
                                     .filter((doorKey) => doors[doorKey].category === activeCategory).length === 0 ? (
                                     <p>There are no images available for the selected product.</p>

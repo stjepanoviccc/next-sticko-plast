@@ -1,12 +1,7 @@
 {
     "other1": {
-        "src": "../../../../assets/products/doors/pvc-door1.jpg",
-        "category": "PVC",
-        "alt": "pvc-other1"
-    },
-    "other2": {
-        "src": "../../../../assets/products/doors/pvc-door2.jpg",
-        "category": "Alu",
-        "alt": "pvc-other2"
+        "src": "../../../../assets/products/other/rollo-garage-door.jpg",
+        "category": "Rollo-Garage",
+        "alt": "rollo-garage-door"
     }
 }

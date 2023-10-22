@@ -20,9 +20,8 @@ const Other = () => {
                 <Wrap className="py-12 md:py-32" >
                     <h2 className="pb-4 text-2xl sm:text-4xl text-center md:text-left">Select a category:</h2>
                     <div className="text-center md:text-left">
-                        <select onChange={handleCategoryChange} value={activeCategory}>
+                        <select onChange={handleCategoryChange} value={activeCategory} disabled={true}>
                             <option value="all">All products</option>
-                            <option value="Rolo garažna">Rollo garage</option>
                         </select>
                     </div>
                     <div className="grid grid-cols-1 gap-x-4 gap-y-4 pt-8 sm:grid-cols-2 lg:gap-x-8 lg:grid-cols-3 lg:pt-12 text-secondary">
@@ -33,18 +32,6 @@ const Other = () => {
                                 Object.keys(other).map((otherKey) => (
                                     <ProductsItem key={otherKey} src={other[otherKey].src} category={other[otherKey].category} />
                                 ))
-                            )
-                        )}
-                        {(activeCategory === "Rollo garage") && (
-                            Object.keys(other)
-                                .filter((otherKey) => other[otherKey].category === activeCategory).length === 0 ? (
-                                <p>There are no images available for the selected product.</p>
-                            ) : (
-                                Object.keys(other)
-                                    .filter((otherKey) => other[otherKey].category === activeCategory)
-                                    .map((otherKey) => (
-                                        <ProductsItem key={otherKey} src={other[otherKey].src} category={other[otherKey].category} />
-                                    ))
                             )
                         )}
                     </div>

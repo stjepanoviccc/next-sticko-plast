@@ -23,9 +23,8 @@ const Windows = () => {
                         <select onChange={handleCategoryChange} value={activeCategory}>
                             <option value="all">All products</option>
                             <option value="PVC">PVC</option>
-                            <option value="Alu">Alu</option>
                             <option value="Single-Winged">Single-Winged</option>
-                            <option value="Two-Winged">Two-Winged</option>
+                            <option value="Double-Winged">Double-Winged</option>
                             <option value="Three-Winged">Three-Winged</option>
                             <option value="Four-Winged">Four-Winged</option>
                         </select>
@@ -40,7 +39,7 @@ const Windows = () => {
                                 ))
                             )
                         )}
-                        {(activeCategory === "PVC" || activeCategory === "Alu" || activeCategory === "Single-Winged" || activeCategory === "Two-Winged" || activeCategory === "Three-Winged" || activeCategory === "Four-Winged") && (
+                        {(activeCategory === "PVC" || activeCategory === "Single-Winged" || activeCategory === "Double-Winged" || activeCategory === "Three-Winged" || activeCategory === "Four-Winged") && (
                             Object.keys(windows)
                                 .filter((windowsKey) => windows[windowsKey].category === activeCategory).length === 0 ? (
                                     <p>There are no images available for the selected product.</p>

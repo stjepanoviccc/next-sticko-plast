@@ -1,47 +1,47 @@
 {
     "door1": {
-        "src": "../../../../assets/products/doors/pvc-door1.jpg",
+        "src": "../../../../assets/products/doors/pvc-door.png",
         "category": "PVC",
-        "alt": "pvc-door1"
+        "alt": "pvc-door"
     },
     "door2": {
-        "src": "../../../../assets/products/doors/pvc-door2.jpg",
-        "category": "PVC",
-        "alt": "pvc-door2"
+        "src": "../../../../assets/products/doors/alu-door.jpg",
+        "category": "Alu",
+        "alt": "alu-door"
     },
     "door3": {
-        "src": "../../../../assets/products/doors/pvc-door3.jpg",
-        "category": "PVC",
-        "alt": "pvc-door3"
+        "src": "../../../../assets/products/doors/balcony-door.jpg",
+        "category": "Balcony",
+        "alt": "balcony-door"
     },
     "door4": {
-        "src": "../../../../assets/products/doors/pvc-door4.jpg",
-        "category": "PVC",
-        "alt": "pvc-door4"
+        "src": "../../../../assets/products/doors/entrance-door.jpg",
+        "category": "Entrance",
+        "alt": "entrance-door"
     },
     "door5": {
-        "src": "../../../../assets/products/doors/pvc-door5.jpg",
-        "category": "PVC",
-        "alt": "pvc-door5"
+        "src": "../../../../assets/products/doors/sliding-door.jpg",
+        "category": "Sliding",
+        "alt": "sliding-door"
     },
     "door6": {
-        "src": "../../../../assets/products/doors/pvc-door6.jpg",
-        "category": "PVC",
-        "alt": "pvc-door6"
+        "src": "../../../../assets/products/doors/room-door.jpg",
+        "category": "Room",
+        "alt": "room-door"
     },
     "door7": {
-        "src": "../../../../assets/products/doors/pvc-door7.jpg",
-        "category": "PVC",
-        "alt": "pvc-door7"
+        "src": "../../../../assets/products/doors/single-winged-door.jpg",
+        "category": "Single-Winged",
+        "alt": "single-winged-door"
     },
     "door8": {
-        "src": "../../../../assets/products/doors/pvc-door8.jpg",
-        "category": "PVC",
-        "alt": "pvc-door8"
+        "src": "../../../../assets/products/doors/double-winged-door.jpg",
+        "category": "Double-Winged",
+        "alt": "double-winged-door"
     },
     "door9": {
-        "src": "../../../../assets/products/doors/alu-door1.jpg",
-        "category": "Alu",
-        "alt": "alu-door1"
+        "src": "../../../../assets/products/doors/van-system-door.jpg",
+        "category": "Van-System",
+        "alt": "van-system-door"
     }
 }

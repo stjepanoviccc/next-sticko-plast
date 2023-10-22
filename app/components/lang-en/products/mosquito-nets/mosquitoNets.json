@@ -1,7 +1,17 @@
 {
-    "mosquitoNets": {
-        "src": "../../../../assets/products/doors/pvc-door1.jpg",
-        "category": "Mosquito Nets",
-        "alt": "mosquitoNets1"
+    "mosquitoNets1": {
+        "src": "../../../../assets/products/mosquitoNets/pvc-mosquito-net.jpg",
+        "category": "PVC",
+        "alt": "pvc-mosquito-net"
+    },
+    "mosquitoNets2": {
+        "src": "../../../../assets/products/mosquitoNets/rollo-mosquito-net.jpg",
+        "category": "Roll",
+        "alt": "rollo-mosquito-net"
+    },
+    "mosquitoNets3": {
+        "src": "../../../../assets/products/mosquitoNets/plisse-mosquito-net.jpg",
+        "category": "Plisse",
+        "alt": "plisse-mosquito-net"
     }
 }
