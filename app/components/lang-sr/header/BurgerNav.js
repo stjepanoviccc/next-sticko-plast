@@ -41,7 +41,7 @@ const HamburgerMenu = () => {
     <>
       <Wrap className="flex items-center justify-between bg-white py-6">
         <Link className="w-64 h-full mb-1.5" href="/">
-          <img src="../../assets/header/logo-colored.png" alt="logo"></img>
+          <img className="h-full w-full" src="../../assets/header/logo-colored.png" alt="logo"></img>
         </Link>
         <button type="button" onClick={toggleMenu} aria-label="Toggle menu">
           <FontAwesomeIcon className="text-3xl pt-0.5" icon={faBars} />
