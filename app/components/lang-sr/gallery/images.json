@@ -70,13 +70,5 @@
     "img18": {
         "src": "../../assets/works/work18.jpg",
         "alt": "work18-img"
-    },
-    "img19": {
-        "src": "../../assets/works/work19.jpg",
-        "alt": "work19-img"
-    },
-    "img20": {
-        "src": "../../assets/works/work20.jpg",
-        "alt": "work20-img"
     }
 }

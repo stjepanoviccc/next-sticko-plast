@@ -24,7 +24,6 @@ const MosquitoNets = () => {
                             <option value="all">Svi proizvodi</option>
                             <option value="PVC">PVC</option>
                             <option value="Alu">Alu</option>
-                            <option value="Fiksni">Fiksni</option>
                             <option value="Rolo">Rolo</option>
                             <option value="Plise">Plise</option>
                         </select>

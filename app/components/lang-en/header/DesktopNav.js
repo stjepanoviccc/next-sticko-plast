@@ -47,7 +47,7 @@ const NavMenu = () => {
             <nav aria-label="Navigation" >
                 <Wrap className="flex items-center justify-between py-5">
                     <Link href="/en/home">
-                        <img className="w-64 cursor-pointer" src="../../assets/header/logo-colored.png" alt="logo"></img>
+                        <img className="h-full w-64 cursor-pointer" src="../../assets/header/logo-colored.png" alt="logo"></img>
                     </Link>
                     <ul className="flex gap-x-12">
                         <li className={`relative py-4 text-base font-semibold ${activePage === '/en/home' ? 'navLinkActiveEffect' : 'navLinkBorderEffect'}`}>

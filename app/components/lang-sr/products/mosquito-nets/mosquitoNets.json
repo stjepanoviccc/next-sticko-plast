@@ -13,5 +13,10 @@
         "src": "../../../../assets/products/mosquitoNets/plisse-mosquito-net.jpg",
         "category": "Plise",
         "alt": "plise-komarnik"
+    },
+    "mosquitoNets4": {
+        "src": "../../../../assets/products/mosquitoNets/alu-mosquito-net.jpg",
+        "category": "Alu",
+        "alt": "alu-komarnik"
     }
 }

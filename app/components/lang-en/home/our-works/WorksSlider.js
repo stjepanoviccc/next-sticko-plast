@@ -9,7 +9,7 @@ const WorksSlider = () => {
         <AutoplaySlider swiperClasses="mySwiper" sliderPadding="0 0 2.5rem 0">
             {Object.keys(images).map((imgKey, index) => (
                 <SwiperSlide key={index} className="rounded-tl-xl rounded-tr-xl">
-                    <img loading="eager" style={{ minHeight: imgHeight }} className="w-full rounded-xl" src={images[imgKey].src} alt={images[imgKey].alt}></img>
+                    <img style={{ minHeight: imgHeight }} className="w-full h-full rounded-xl" src={images[imgKey].src} alt={images[imgKey].alt}></img>
                 </SwiperSlide>
             ))}
         </AutoplaySlider>

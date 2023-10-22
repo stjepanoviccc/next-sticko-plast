@@ -41,7 +41,7 @@ const HamburgerMenu = () => {
     <>
       <Wrap className="flex items-center justify-between bg-white py-6">
         <Link className="w-64 mb-1.5" href="/en/home">
-          <img src="../../assets/header/logo-colored.png" alt="logo"></img>
+          <img className="w-full h-full" src="../../assets/header/logo-colored.png" alt="logo"></img>
         </Link>
         <button type="button" onClick={toggleMenu}>
           <FontAwesomeIcon className="text-3xl pt-0.5" icon={faBars} />
@@ -56,7 +56,7 @@ const HamburgerMenu = () => {
             <Link onClick={toggleMenu} href="/" className="-m-1.5 p-1.5">
               <img className="w-64 mb-1.5" src="../../assets/header/logo-white.png" alt="nav-logo"></img>
             </Link>
-            <button type="button" onClick={toggleMenu} className="-m-2.5 rounded-md p-2.5 text-white">
+            <button type="button" aria-label="Toggle" onClick={toggleMenu} className="-m-2.5 rounded-md p-2.5 text-white">
               <FontAwesomeIcon className="h-5 w-5" icon={faClose} />
             </button>
           </div>
@@ -67,7 +67,7 @@ const HamburgerMenu = () => {
                 <Link onClick={toggleMenu} href="/en/about-us" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white" aria-label="About us">About us</Link>
 
                 <div className="-mx-3">
-                  <button type="button" onClick={toggleProductsDropdown}
+                  <button type="button" aria-label="Toggle products dropdown" onClick={toggleProductsDropdown}
                     className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white" aria-expanded="false">
                     Products
                     <FontAwesomeIcon className="h-3 w-3" icon={faChevronDown} />
@@ -84,7 +84,7 @@ const HamburgerMenu = () => {
                 </div>
 
                 <div className="-mx-3">
-                  <button type="button" onClick={toggleDocumentationDropdown}
+                  <button type="button" aria-label="Toggle document dropdown" onClick={toggleDocumentationDropdown}
                     className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white" aria-expanded="false">
                     Documents
                     <FontAwesomeIcon className="h-3 w-3" icon={faChevronDown} />
@@ -115,7 +115,7 @@ const HamburgerMenu = () => {
 
               </div>
               <div className="py-6">
-                <button type="button" onClick={handleCall} className="flex items-center gap-x-4 text-white">
+                <button type="button" aria-label="Call us" onClick={handleCall} className="flex items-center gap-x-4 text-white">
                   <FontAwesomeIcon className="w-4" icon={faPhone} />
                   <Link href={`tel:${phoneNumber}`} className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7">{phoneNumber}</Link>
                 </button>
@@ -133,9 +133,9 @@ const HamburgerMenu = () => {
                 </div>
               </div>
               <div className="py-6 flex justify-center items-center gap-x-12 text-white">
-                <Link onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon size="xl" icon={faFacebook} /></Link>
-                <Link onClick={toggleMenu} target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon size="xl" icon={faInstagram} /></Link>
-                <Link onClick={toggleMenu} target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon size="xl" icon={faYoutube} /></Link>
+                <Link aria-label="Open Facebook page in new tab"onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon size="xl" icon={faFacebook} /></Link>
+                <Link aria-label="Open Instagram page in new tab"onClick={toggleMenu} target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon size="xl" icon={faInstagram} /></Link>
+                <Link aria-label="Open Youtube page in new tab"onClick={toggleMenu} target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon size="xl" icon={faYoutube} /></Link>
               </div>
             </div>
           </div>

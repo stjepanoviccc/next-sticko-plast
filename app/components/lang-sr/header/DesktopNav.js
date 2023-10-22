@@ -47,7 +47,7 @@ const NavMenu = () => {
             <nav aria-label="Navigation" >
                 <Wrap className="flex items-center justify-between py-5">
                     <Link href="/">
-                        <img className="w-64 cursor-pointer" src="../../assets/header/logo-colored.png" alt="logo"></img>
+                        <img className="w-64 h-full cursor-pointer" src="../../assets/header/logo-colored.png" alt="logo"></img>
                     </Link>
                     <ul className="flex gap-x-12">
                         <li className={`relative py-4 text-base font-semibold ${activePage === '/' ? 'navLinkActiveEffect' : 'navLinkBorderEffect'}`}>
@@ -59,7 +59,7 @@ const NavMenu = () => {
 
                         <li className="relative cursor-pointer" onMouseEnter={handleProductDropdownEnter} onMouseLeave={handleProductDropdownLeave} >
                             <div className="relative py-4 text-base font-semibold" >
-                                <button type="button" className="flex items-center gap-x-1 " aria-expanded="false">Proizvodi
+                                <button type="button" aria-label="Toggle products" className="flex items-center gap-x-1 " aria-expanded="false">Proizvodi
                                     <FontAwesomeIcon className="h-3 w-3 pb-0.5" icon={faChevronDown} />
                                 </button>
                             </div>
@@ -93,7 +93,7 @@ const NavMenu = () => {
                         </li>
 
                         <li className="relative cursor-pointer" onMouseEnter={handleDocumentationDropdownEnter} onMouseLeave={handleDocumentationDropdownLeave} >
-                            <button type="button" className="relative py-4 flex items-center gap-x-1 text-base font-semibold" aria-expanded="false" >Dokumenti
+                            <button type="button" aria-label="Toggle documents" className="relative py-4 flex items-center gap-x-1 text-base font-semibold" aria-expanded="false" >Dokumenti
                                 <FontAwesomeIcon className="h-3 w-3 pb-0.5" icon={faChevronDown} />
                             </button>
                             <ul className={`absolute -left-8 top-full z-10 w-60 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg
@@ -121,7 +121,7 @@ const NavMenu = () => {
                         </li>
 
                         <li className="relative cursor-pointer" onMouseEnter={handleLanguageDropdownEnter} onMouseLeave={handleLanguageDropdownLeave} >
-                            <button type="button" className="relative py-4 flex items-center gap-x-1 text-base font-semibold" aria-expanded="false" >SR
+                            <button type="button" aria-label="Toggle languages" className="relative py-4 flex items-center gap-x-1 text-base font-semibold" aria-expanded="false" >SR
                                 <FontAwesomeIcon className="h-3 w-3 pb-0.5" icon={faChevronDown} />
                             </button>
                             <ul className={`absolute -left-4 top-full z-10 w-16 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg

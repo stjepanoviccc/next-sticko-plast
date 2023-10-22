@@ -13,7 +13,7 @@ const srFooter = () => {
 
           <div className="flex flex-1 items-center flex-col gap-y-6 lg:items-start lg:max-w-[25%]">
             <Link className="w-64" href="/">
-              <img className="full" src="../../assets/header/logo-white.png" alt="logo"></img>
+              <img className="w-full h-full" src="../../assets/header/logo-white.png" alt="logo"></img>
             </Link>
             <p>Mi se bavimo prodajom i montažom PVC i Alu stolarije za Vaše domove i Vaše poslovne prostore.</p>
           </div>
@@ -79,9 +79,9 @@ const srFooter = () => {
         <Wrap className="flex flex-col-reverse justify-between text-center gap-y-2 pb-4 pt-4 lg:flex-row lg:text-left">
           <p>Sva prava zadržava &copy; 2023 Šticko Plast. Kreirao <Link className="hover:underline" href="/">Andrej Stjepanović</Link></p>
           <ul className="flex gap-x-4 justify-center items-center lg:justify-between">
-            <li><Link target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link></li>
-            <li><Link target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon icon={faInstagram} /></Link></li>
-            <li><Link target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon icon={faYoutube} /></Link></li>
+            <li><Link aria-label="Open Facebook page in new tab" target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link></li>
+            <li><Link aria-label="Open Instagram page in new tab" target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon icon={faInstagram} /></Link></li>
+            <li><Link aria-label="Open Youtube page in new tab" target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon icon={faYoutube} /></Link></li>
           </ul>
         </Wrap>
       </Bar>

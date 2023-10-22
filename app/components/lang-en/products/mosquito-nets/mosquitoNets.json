@@ -13,5 +13,10 @@
         "src": "../../../../assets/products/mosquitoNets/plisse-mosquito-net.jpg",
         "category": "Plisse",
         "alt": "plisse-mosquito-net"
+    },
+    "mosquitoNets4": {
+        "src": "../../../../assets/products/mosquitoNets/alu-mosquito-net.jpg",
+        "category": "Alu",
+        "alt": "alu-mosquito-net"
     }
 }
