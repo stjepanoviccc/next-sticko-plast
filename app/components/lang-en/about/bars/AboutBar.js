@@ -18,7 +18,7 @@ const AboutBar = () => {
                     </Card>
                     <Card className="gap-y-2 border-2 border-white p-8">
                         <FontAwesomeIcon icon={faPeopleGroup} size="2xl" />
-                        <NumberCounter target={10}></NumberCounter>
+                        <NumberCounter target={3}></NumberCounter>
                         <p className="sm:text-lg">Number of employees</p>
                     </Card>
                     <Card className="gap-y-2 border-2 border-white p-8">
