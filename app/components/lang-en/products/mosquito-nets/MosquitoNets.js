@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Wrap from "../../../ui/Wrap";
 import ProductsItem from "../ProductsItem";
 import mosquitoNets from "./mosquitoNets.json";
+import Colors from "@/app/components/ui/Colors";
 
 const MosquitoNets = () => {
     const [activeCategory, setActiveCategory] = useState("all");
@@ -18,6 +19,7 @@ const MosquitoNets = () => {
         <>
             <section id="mosquitoNets-section">
                 <Wrap className="py-12 md:py-32" >
+                    <Colors />
                     <h2 className="pb-4 text-2xl sm:text-4xl text-center md:text-left">Select a category:</h2>
                     <div className="text-center md:text-left">
                         <select value={activeCategory} onChange={handleCategoryChange} >

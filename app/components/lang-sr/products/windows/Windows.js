@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Wrap from "../../../ui/Wrap";
 import ProductsItem from "../ProductsItem";
 import windows from "./windows.json";
+import Colors from "@/app/components/ui/Colors";
 
 const Windows = () => {
     const [activeCategory, setActiveCategory] = useState("all");
@@ -18,6 +19,7 @@ const Windows = () => {
         <>
             <section id="windows-section">
                 <Wrap className="py-12 md:py-32" >
+                    <Colors />
                     <h2 className="pb-4 text-2xl sm:text-4xl text-center md:text-left">Izaberite kategoriju:</h2>
                     <div className="text-center md:text-left">
                         <select onChange={handleCategoryChange} value={activeCategory}>

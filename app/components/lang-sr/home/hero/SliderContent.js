@@ -18,8 +18,8 @@ const SliderContent = ({ src, alt }) => {
 
     return (
         <>
-            <div className="relative">
-                <img style={{ height: height, width: '100vw', objectFit: 'cover' }} src={src} alt={alt} />
+            <div className="relative" style={{ height: height, width: '100vw' }}>
+                <img className="h-full w-full object-cover" src={src} alt={alt} />
                 <div className="absolute inset-0 bg-primary bg-opacity-50"></div>
             </div>
             <TextAppear showWrap={showWrap}>

@@ -10,7 +10,9 @@ module.exports = {
         primary: '#374151',
         secondary: '#1F2937',
         light: '#ececec',
-        light2: '#f9f9f9'
+        light2: '#f9f9f9',
+        antracit: "#48474c",
+        wood: "#5c3510"
       },
       keyframes: {
         borderAnimation: {

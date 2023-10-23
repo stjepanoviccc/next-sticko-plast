@@ -43,7 +43,7 @@ const HamburgerMenu = () => {
         <Link className="w-64 h-full mb-1.5" href="/en/home">
           <img className="w-full h-full" src="../../assets/header/logo-colored.png" alt="logo"></img>
         </Link>
-        <button type="button" onClick={toggleMenu}>
+        <button type="button" onClick={toggleMenu} aria-label="Toggle menu">
           <FontAwesomeIcon className="text-3xl pt-0.5" icon={faBars} />
         </button>
       </Wrap>

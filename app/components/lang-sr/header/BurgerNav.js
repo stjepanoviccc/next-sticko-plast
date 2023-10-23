@@ -56,7 +56,7 @@ const HamburgerMenu = () => {
             <Link onClick={toggleMenu} href="/" className="-m-1.5 p-1.5">
               <img className="w-64 mb-1.5" src="../../assets/header/logo-white.png" alt="nav-logo"></img>
             </Link>
-            <button type="button" ariaLabel="Toggle menu" onClick={toggleMenu} className="-m-2.5 rounded-md p-2.5 text-white">
+            <button type="button" aria-label="Toggle menu" onClick={toggleMenu} className="-m-2.5 rounded-md p-2.5 text-white">
               <FontAwesomeIcon className="h-5 w-5" icon={faClose} />
             </button>
           </div>
