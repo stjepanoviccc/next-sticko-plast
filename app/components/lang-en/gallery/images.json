@@ -58,17 +58,5 @@
     "img15": {
         "src": "../../assets/works/work15.jpg",
         "alt": "work15-img"
-    },
-    "img16": {
-        "src": "../../assets/works/work16.jpg",
-        "alt": "work16-img"
-    },
-    "img17": {
-        "src": "../../assets/works/work17.jpg",
-        "alt": "work17-img"
-    },
-    "img18": {
-        "src": "../../assets/works/work18.jpg",
-        "alt": "work18-img"
     }
 }
