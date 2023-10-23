@@ -77,7 +77,7 @@ const enFooter = () => {
 
       <Bar style={{ backgroundColor: '#1F2937' }} textColor="white">
         <Wrap className="flex flex-col-reverse justify-between text-center gap-y-2 pb-4 pt-4 lg:flex-row lg:text-left">
-          <p>All rights reserved &copy; 2023 Šticko Plast. Created by <Link className="hover:underline" href="/">Andrej Stjepanović</Link></p>
+          <p>All rights reserved &copy; 2023 Šticko Plast. Created by <Link target="_blank" className="hover:underline" href="https://www.linkedin.com/in/andrej-stjepanovic/">Andrej Stjepanović</Link></p>
           <ul className="flex gap-x-4 justify-center items-center lg:justify-between">
             <li><Link aria-label="Open Facebook page in new tab" target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link></li>
             <li><Link aria-label="Open Instagram page in new tab" target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon icon={faInstagram} /></Link></li>
