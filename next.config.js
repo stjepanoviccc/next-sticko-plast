@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+module.exports = {
+    plugins: [
+      'next-sitemap',
+    ],
+    sitemap: {
+      hostname: 'https://sticko-plast.com',
+    },
+  }
