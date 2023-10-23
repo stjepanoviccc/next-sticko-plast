@@ -8,6 +8,7 @@ const ProzoriPage = () => {
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Prozori - Šticko Plast - Prodaja i montaža PVC i Alu stolarije. Naša usluga uključuje montažu prozora, vrata, venecijanera, zavesa i svega drugog što je neophodno za Vaš dom ili Vaš poslovni prostor.</title>
+                <meta name="robots" content="index"></meta>
             </Head>
             <ProductsHeader sectionId="windows-header" title="Proizvodi - Prozori" subtitle="Naši prozori odlikuju se visokom energetskom efikasnošću, pružajući toplinu i udobnost Vašem domu uz smanjenje računa za energiju." />
             <Windows />

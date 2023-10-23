@@ -8,6 +8,7 @@ const OstaloPage = () => {
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Ostali proizvodi - Šticko Plast - Prodaja i montaža PVC i Alu stolarije. Naša usluga uključuje montažu prozora, vrata, venecijanera, zavesa i svega drugog što je neophodno za Vaš dom ili Vaš poslovni prostor.</title>
+                <meta name="robots" content="index"></meta>
             </Head>
             <ProductsHeader sectionId="ostalo-header" title="Proizvodi - Ostalo" subtitle="Sve ostale proizvode koji nemaju svoju kategoriju unutar naše firme možete pronaći na ovoj stranici." />
             <Other />

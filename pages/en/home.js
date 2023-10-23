@@ -15,6 +15,7 @@ const HomePage = () => {
         <title>
           Šticko Plast - Sales and installation of PVC and ALU carpentry. Our service includes the installation of windows, doors, venetian blinds, curtains and everything else that is needed for your home or business premises.</title>
         <meta name="description" content="Our company offers you the opportunity to adapt your home to your wishes. We sell and install the highest quality custom-made PVC and aluminum carpentry for you, with a focus on quality and durability. For lasting satisfaction and an elegant look, choose us." />
+        <meta name="robots" content="index"></meta>
       </Head>
       <Hero />
       <AboutUs />
