@@ -79,9 +79,9 @@ const srFooter = () => {
         <Wrap className="flex flex-col-reverse justify-between text-center gap-y-2 pb-4 pt-4 lg:flex-row lg:text-left">
           <p>Sva prava zadržava &copy; 2023 Šticko Plast. Kreirao <Link target="_blank" className="hover:underline" href="https://www.linkedin.com/in/andrej-stjepanovic/">Andrej Stjepanović</Link></p>
           <ul className="flex gap-x-4 justify-center items-center lg:justify-between">
-            <li><Link aria-label="Open Facebook page in new tab" target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link></li>
-            <li><Link aria-label="Open Instagram page in new tab" target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon icon={faInstagram} /></Link></li>
-            <li><Link aria-label="Open Youtube page in new tab" target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon icon={faYoutube} /></Link></li>
+            <li><Link aria-label="Open Facebook page in new tab" target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon className="w-4" icon={faFacebook} /></Link></li>
+            <li><Link aria-label="Open Instagram page in new tab" target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon className="w-4" icon={faInstagram} /></Link></li>
+            <li><Link aria-label="Open Youtube page in new tab" target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon className="w-4" icon={faYoutube} /></Link></li>
           </ul>
         </Wrap>
       </Bar>
