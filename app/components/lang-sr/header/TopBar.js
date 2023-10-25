@@ -30,9 +30,9 @@ const TopBar = () => {
                     </li>
                 </ul>
                 <ul className="flex gap-x-4 justify-between items-center">
-                    <li><Link aria-label="Open Facebook page in new tab" target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon icon={faFacebook} /></Link></li>
-                    <li><Link aria-label="Open Instagram page in new tab" target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon icon={faInstagram} /></Link></li>
-                    <li><Link aria-label="Open Youtube page in new tab" target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon icon={faYoutube} /></Link></li>
+                    <li><Link aria-label="Open Facebook page in new tab" target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon className="w-4" icon={faFacebook} /></Link></li>
+                    <li><Link aria-label="Open Instagram page in new tab" target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon className="w-4" icon={faInstagram} /></Link></li>
+                    <li><Link aria-label="Open Youtube page in new tab" target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon className="w-4" icon={faYoutube} /></Link></li>
                 </ul>
             </Wrap>
         </Bar>
