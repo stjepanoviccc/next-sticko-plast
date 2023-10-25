@@ -12,17 +12,17 @@ const AboutBar = () => {
             <Wrap className="pt-12 pb-12 md:pt-16 md:pb-16">
                 <div className="flex flex-col justify-between gap-x-16 gap-y-12 text-center font-bold md:flex-row lg:gap-x-24">
                     <Card className="gap-y-2 border-2 border-white p-8">
-                        <FontAwesomeIcon icon={faHourglassHalf} size="2xl" />
+                        <FontAwesomeIcon icon={faHourglassHalf} className="h-8" />
                         <NumberCounter target={20}>+</NumberCounter>
                         <p className="sm:text-lg">Year on the market</p>
                     </Card>
                     <Card className="gap-y-2 border-2 border-white p-8">
-                        <FontAwesomeIcon icon={faPeopleGroup} size="2xl" />
+                        <FontAwesomeIcon icon={faPeopleGroup} className="h-8" />
                         <NumberCounter target={3}></NumberCounter>
                         <p className="sm:text-lg">Number of employees</p>
                     </Card>
                     <Card className="gap-y-2 border-2 border-white p-8">
-                        <FontAwesomeIcon icon={faBriefcase} size="2xl" />
+                        <FontAwesomeIcon icon={faBriefcase} className="h-8" />
                         <NumberCounter target={500}>+</NumberCounter>
                         <p className="sm:text-lg">Completed works</p>
                     </Card>

@@ -13,18 +13,18 @@ const OurQualitiesBar = () => {
         <Wrap className="pt-12 pb-12 md:pt-16 md:pb-16">
           <div className="flex flex-col justify-between gap-x-16 gap-y-12 text-center md:flex-row lg:gap-x-24">
             <Card className="gap-y-4">
-              <FontAwesomeIcon icon={faBoxOpen} size="2xl" />
+              <FontAwesomeIcon icon={faBoxOpen} className="h-8" />
               <p className="text-2xl font-bold sm:text-3xl">Fast delivery</p>
               <p className="sm:text-lg">Making and delivering the order in the agreed time interval is what sets us apart from the rest.</p>
             </Card>
             <Card className="gap-y-4">
-              <FontAwesomeIcon icon={faTrophy} size="2xl" />
+              <FontAwesomeIcon icon={faTrophy} className="h-8" />
               <p className="text-2xl font-bold sm:text-3xl">Precision</p>
               <p className="sm:text-lg">Precision and meticulousness are very important factors possessed by our staff and at the same time distinguish our company.</p>
             </Card>
 
             <Card className="gap-y-4">
-              <FontAwesomeIcon icon={faDollarSign} size="2xl" />
+              <FontAwesomeIcon icon={faDollarSign} className="h-8" />
               <p className="text-2xl font-bold sm:text-3xl">Accessibility</p>
               <p className="sm:text-lg">We try to deliver your order at the most affordable price and fulfill all your requirements.</p>
             </Card>

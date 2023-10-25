@@ -13,18 +13,18 @@ const OurQualitiesBar = () => {
         <Wrap className="pt-12 pb-12 md:pt-16 md:pb-16">
           <div className="flex flex-col justify-between gap-x-16 gap-y-12 text-center md:flex-row lg:gap-x-24">
             <Card className="gap-y-4">
-              <FontAwesomeIcon icon={faBoxOpen} size="2xl" />
+              <FontAwesomeIcon icon={faBoxOpen} className="h-8" />
               <p className="text-2xl font-bold sm:text-3xl">Brza isporuka</p>
               <p className="sm:text-lg">Izrada i isporuka narudžbe u dogovorenom vremenskom intervalu je ono što nas izdvaja od ostalih.</p>
             </Card>
             <Card className="gap-y-4">
-              <FontAwesomeIcon icon={faTrophy} size="2xl" />
+              <FontAwesomeIcon icon={faTrophy} className="h-8" />
               <p className="text-2xl font-bold sm:text-3xl">Preciznost</p>
               <p className="sm:text-lg">Preciznost i pedantnost su veoma bitni faktori koje poseduje naše osoblje i ujedno odlikuje našu firmu.</p>
             </Card>
 
             <Card className="gap-y-4">
-              <FontAwesomeIcon icon={faDollarSign} size="2xl" />
+              <FontAwesomeIcon icon={faDollarSign} className="h-8" />
               <p className="text-2xl font-bold sm:text-3xl">Pristupačnost</p>
               <p className="sm:text-lg">Mi se trudimo da Vam po što pristupačnijoj ceni isporučimo Vašu narudžbu i ispunimo sve Vaše zahteve.</p>
             </Card>

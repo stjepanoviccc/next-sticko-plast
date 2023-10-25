@@ -54,7 +54,7 @@ const Gallery = () => {
                 <div className="fixed inset-0 z-50 bg-black bg-opacity-90 flex justify-center items-center">
                     <div className="max-w-screen-md w-full">
                         <button className="absolute top-4 right-4 text-white text-xl font-bold" onClick={toggleSlider} >
-                            <FontAwesomeIcon size={"xl"} icon={faClose} />
+                            <FontAwesomeIcon size={"xl"} icon={faClose} className="h-8" />
                         </button>
                         <Swiper className="mySwiper mt-6" initialSlide={selectedImageIndex} onSwiper={(swiper) => (swiperRef.current = swiper)} allowTouchMove={false}>
                             {Object.keys(images).map((imageKey) => (

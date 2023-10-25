@@ -44,7 +44,7 @@ const HamburgerMenu = () => {
           <img className="w-full h-full" src="../../assets/header/logo-colored.png" alt="logo"></img>
         </Link>
         <button type="button" onClick={toggleMenu} aria-label="Toggle menu">
-          <FontAwesomeIcon className="text-3xl pt-0.5" icon={faBars} />
+          <FontAwesomeIcon className="h-8 w-8 pt-0.5" icon={faBars} />
         </button>
       </Wrap>
       <nav className={`fixed inset-y-0 right-0 w-full sm:w-96 transform 
@@ -133,9 +133,9 @@ const HamburgerMenu = () => {
                 </div>
               </div>
               <div className="py-6 flex justify-center items-center gap-x-12 text-white">
-                <Link aria-label="Open Facebook page in new tab"onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon size="xl" icon={faFacebook} /></Link>
-                <Link aria-label="Open Instagram page in new tab"onClick={toggleMenu} target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon size="xl" icon={faInstagram} /></Link>
-                <Link aria-label="Open Youtube page in new tab"onClick={toggleMenu} target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon size="xl" icon={faYoutube} /></Link>
+                <Link aria-label="Open Facebook page in new tab" onClick={toggleMenu} target="_blank" href="https://www.facebook.com/profile.php?id=100064276594775"><FontAwesomeIcon className="h-8 w-8" icon={faFacebook} /></Link>
+                <Link aria-label="Open Instagram page in new tab" onClick={toggleMenu} target="_blank" href="https://www.instagram.com/sticko_plast/"><FontAwesomeIcon className="h-8 w-8" icon={faInstagram} /></Link>
+                <Link aria-label="Open Youtube page in new tab" onClick={toggleMenu} target="_blank" href="https://www.youtube.com/@StickoPlast"><FontAwesomeIcon className="h-8 w-8" icon={faYoutube} /></Link>
               </div>
             </div>
           </div>

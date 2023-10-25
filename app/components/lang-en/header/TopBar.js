@@ -12,19 +12,19 @@ const TopBar = () => {
             <Wrap className="flex justify-between items-center py-3">
                 <ul className="flex gap-x-10 justify-between items-center">
                     <li className="flex gap-x-2 justify-between items-center">
-                        <FontAwesomeIcon icon={faPhone} />
+                        <FontAwesomeIcon icon={faPhone} className="w-4" />
                         <p className="text-sm">+381 64 1284447</p>
                     </li>
                     <li className="flex gap-x-2 justify-between items-center">
-                        <FontAwesomeIcon icon={faEnvelope} />
+                        <FontAwesomeIcon icon={faEnvelope} className="w-4" />
                         <p className="text-sm">stickoplast@gmail.com</p>
                     </li>
                     <li className="flex gap-x-2 justify-between items-center">
-                        <FontAwesomeIcon icon={faLocationDot} />
+                        <FontAwesomeIcon icon={faLocationDot} className="w-4" />
                         <p className="text-sm">Masarikova 37, Kisač, Serbia</p>
                     </li>
                     <li className="flex gap-x-2 justify-between items-center">
-                        <FontAwesomeIcon icon={faClock} />
+                        <FontAwesomeIcon icon={faClock} className="w-4" />
                         <p className="text-sm"> Monday - Saturday | 08:00 - 16:00
                         </p>
                     </li>

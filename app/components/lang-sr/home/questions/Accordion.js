@@ -15,7 +15,7 @@ const Accordion = ({ title, text }) => {
         <div className="flex flex-col w-[90%] border-b-[1px] border-primary">
             <button className="flex justify-between text-lg pt-8 pl-4 pr-4 pb-4" onClick={toggleAccordion}>
                 <h5 className="font-bold">{title}</h5>
-                {!isActive ? <FontAwesomeIcon icon={faChevronDown} /> : <FontAwesomeIcon icon={faChevronUp} />}
+                {!isActive ? <FontAwesomeIcon icon={faChevronDown} className="h-4" /> : <FontAwesomeIcon icon={faChevronUp} className="h-4" />}
             </button>
             <Transition nodeRef={nodeRef} in={isActive} timeout={0}>
                 {state => (

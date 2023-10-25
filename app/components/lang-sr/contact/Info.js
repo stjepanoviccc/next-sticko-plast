@@ -23,22 +23,22 @@ const Info = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-4 pt-8 lg:flex lg:justify-between lg:gap-x-8 lg:pt-12 text-secondary font-bold">
                     <Link onClick={handleCall} href={`tel:${phoneNumber}`}
                     className="flex-1 flex flex-col items-center gap-y-4 py-8 lg:py-14 rounded-2xl border-2 hover:border-primary transition duration-300">
-                        <FontAwesomeIcon className="text-3xl sm:text-5xl" icon={faPhone} />
+                        <FontAwesomeIcon className="h-8 sm:h-16" icon={faPhone} />
                         <h4 className="text-lg sm:text-xl pb-2 border-b-2 border-primary">Telefon</h4>
                         <p>+381 64 1284447</p>
                     </Link>
                     <Card className="items-center gap-y-4 py-8 lg:py-14 rounded-2xl border-2 hover:border-primary transition duration-300">
-                        <FontAwesomeIcon className="text-3xl sm:text-5xl" icon={faEnvelope} />
+                        <FontAwesomeIcon className="h-8 sm:h-16" icon={faEnvelope} />
                         <h4 className="text-lg sm:text-xl pb-2 border-b-2 border-primary">E-Mail</h4>
                         <p>stickoplast@gmail.com</p>
                     </Card>
                     <Card className="items-center gap-y-4 py-8 lg:py-14 rounded-2xl border-2 hover:border-primary transition duration-300">
-                        <FontAwesomeIcon className="text-3xl sm:text-5xl" icon={faLocationDot} />
+                        <FontAwesomeIcon className="h-8 sm:h-16" icon={faLocationDot} />
                         <h4 className="text-lg sm:text-xl pb-2 border-b-2 border-primary">Adresa</h4>
                         <p>Masarikova 37, Kisač, Srbija</p>
                     </Card>
                     <Card className="items-center gap-y-4 py-8 lg:py-14 rounded-2xl border-2 hover:border-primary transition duration-300">
-                        <FontAwesomeIcon className="text-3xl sm:text-5xl" icon={faClock} />
+                        <FontAwesomeIcon className="h-8 sm:h-16" icon={faClock} />
                         <h4 className="text-lg sm:text-xl pb-2 border-b-2 border-primary">Radno vreme</h4>
                         <p>Pon - Sub / 08:00 - 16:00</p>
                     </Card>
