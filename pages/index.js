@@ -11,9 +11,11 @@ const HomePage = () => {
   return (
     <>
       <Head>
+        <meta name="description" content="Naša firma vam pruža mogućnost da svoj dom prilagodite svojim željama. Mi za Vas nudimo usluge prodaje i montaže najkvalitetnije PVC i Alu stolarije po meri, sa fokusom na kvalitetu i izdržljivosti. Za trajno zadovoljstvo i elegantan izgled, izaberite nas." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Šticko Plast - Prodaja i montaža PVC i Alu stolarije. Naša usluga uključuje montažu prozora, vrata, venecijanera, zavesa i svega drugog što je neophodno za Vaš dom ili Vaš poslovni prostor.</title>
         <meta name="robots" content="index"></meta>
+        <title>Šticko Plast - Prodaja i montaža PVC i Alu stolarije. Naša usluga uključuje montažu prozora, vrata, venecijanera, zavesa i svega drugog što je neophodno za Vaš dom ili Vaš poslovni prostor.</title>
+        <link rel="icon" href="/stickoIcon.png" />
       </Head>
       <Hero />
       <AboutUs />

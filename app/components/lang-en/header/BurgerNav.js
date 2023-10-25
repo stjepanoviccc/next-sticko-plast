@@ -121,7 +121,7 @@ const HamburgerMenu = () => {
                 </button>
                 <div className="flex items-center gap-x-4 text-white">
                   <FontAwesomeIcon className="w-4" icon={faEnvelope} />
-                  <p className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7">info@sticko-plast.com</p>
+                  <p className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7">stickoplast@gmail.com</p>
                 </div>
                 <div className="flex items-center gap-x-4 text-white">
                   <FontAwesomeIcon className="w-4" icon={faLocationDot} />

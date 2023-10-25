@@ -27,7 +27,7 @@ const enFooter = () => {
               </div>
               <div className="flex flex-col gap-x-4 gap-y-1 items-center lg:flex-row lg:gap-y-0">
                 <FontAwesomeIcon className="w-4" icon={faEnvelope} />
-                <p>info@sticko-plast.com</p>
+                <p>stickoplast@gmail.com</p>
               </div>
               <div className="flex flex-col gap-x-4 gap-y-1 items-center lg:flex-row lg:gap-y-0">
                 <FontAwesomeIcon className="w-4" icon={faLocationDot} />

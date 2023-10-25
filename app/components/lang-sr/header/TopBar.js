@@ -17,7 +17,7 @@ const TopBar = () => {
                     </li>
                     <li className="flex gap-x-2 justify-between items-center">
                         <FontAwesomeIcon icon={faEnvelope} />
-                        <p className="text-sm">info@sticko-plast.com</p>
+                        <p className="text-sm">stickoplast@gmail.com</p>
                     </li>
                     <li className="flex gap-x-2 justify-between items-center">
                         <FontAwesomeIcon icon={faLocationDot} />

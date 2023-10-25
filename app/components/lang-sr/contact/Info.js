@@ -30,7 +30,7 @@ const Info = () => {
                     <Card className="items-center gap-y-4 py-8 lg:py-14 rounded-2xl border-2 hover:border-primary transition duration-300">
                         <FontAwesomeIcon className="text-3xl sm:text-5xl" icon={faEnvelope} />
                         <h4 className="text-lg sm:text-xl pb-2 border-b-2 border-primary">E-Mail</h4>
-                        <p>info@sticko-plast.com</p>
+                        <p>stickoplast@gmail.com</p>
                     </Card>
                     <Card className="items-center gap-y-4 py-8 lg:py-14 rounded-2xl border-2 hover:border-primary transition duration-300">
                         <FontAwesomeIcon className="text-3xl sm:text-5xl" icon={faLocationDot} />
