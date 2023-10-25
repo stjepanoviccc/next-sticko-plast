@@ -44,7 +44,7 @@ const HamburgerMenu = () => {
           <img className="h-full w-full" src="../../assets/header/logo-colored.png" alt="logo"></img>
         </Link>
         <button type="button" onClick={toggleMenu} aria-label="Toggle menu">
-          <FontAwesomeIcon className="text-3xl pt-0.5" icon={faBars} />
+        <FontAwesomeIcon className="text-3xl pt-0.5" icon={faBars} />
         </button>
       </Wrap>
       <nav className={`fixed inset-y-0 right-0 w-full sm:w-96 transform 
